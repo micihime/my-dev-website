@@ -12,9 +12,9 @@ export default function Index() {
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1>From Code to Creativity: My Journey in Web Development</h1>
       <p>
-        Hi, I’m Miroslava, a web developer with a strong foundation in backend engineering using .NET and C#. This year, I’ve expanded my skill set to 
+        Hi, I&apos;m Miroslava, a web developer with a strong foundation in backend engineering using .NET and C#. This year, I&apos;ve expanded my skill set to 
         include frontend development with React, allowing me to craft end-to-end web solutions. I love solving complex problems and creating intuitive 
-        user experiences. I’m always eager to learn, adapt, and innovate.
+        user experiences. I&apos;m always eager to learn, adapt, and innovate.
       </p>
       <div className="zajmy">
         <div className="obsah">
@@ -24,7 +24,7 @@ export default function Index() {
               <img src="obrazky/007-sports.svg" alt="hobby 1" />
               <h3>Continuous Learning:</h3> 
               <p>
-                I’m always eager to learn new tools, frameworks, and techniques to stay on top of the ever-changing tech landscape.
+                I&apos;m always eager to learn new tools, frameworks, and techniques to stay on top of the ever-changing tech landscape.
               </p>
             </li>
             <li>
@@ -45,7 +45,7 @@ export default function Index() {
         </div>
       </div>
       <p>
-        I’m always open to exciting new opportunities and collaborations. Feel free to get in touch if you’d like to work together or simply share ideas.
+        I&apos;m always open to exciting new opportunities and collaborations. Feel free to get in touch if you&apos;d like to work together or simply share ideas.
       </p>
     </div>
   );

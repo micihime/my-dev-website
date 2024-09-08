@@ -11,8 +11,8 @@ export default function Index() {
     return (
         <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
             <p>
-                Over the years, I’ve developed strong backend skills with .NET and C#, working on API design, database management, and server-side logic. Recently, 
-                I’ve expanded my expertise into the frontend world, mastering React to create visually appealing and highly interactive user interfaces. I believe in 
+                Over the years, I&apos;ve developed strong backend skills with .NET and C#, working on API design, database management, and server-side logic. Recently, 
+                I&apos;ve expanded my expertise into the frontend world, mastering React to create visually appealing and highly interactive user interfaces. I believe in 
                 full-stack development and enjoy taking projects from concept to deployment.
             </p>
             
