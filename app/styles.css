@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+/*
+Barvy:
+czechitas růžová: #e5007d
+czechitas modrá: #273582
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+}
+
+/* Pod tento řádek budeme psát kód */
+h1,
+h2,
+h3 {
+  color: #e5007d;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  color: #273582;
+}
+
+a:hover {
+  color: #e5007d;
+}
+
+.zahlavi {
+  background-color: #f5f5f5;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #e5007d;
+  font-size: 40px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.navigace {
+  list-style: none;
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+
+.navigace a {
+  display: block;
+  padding: 8px 24px;
+}
+
+.o-mne {
+  background-color: #e5007d;
+  background-image: linear-gradient(#273582be, #e5007eb0), url(obrazky/podklad.jpg);
+  color: #fff;
+  text-align: center;
+}
+
+.o-mne h1 {
+  color: #fff;
+}
+
+.o-mne img {
+  border-radius: 50%;
+}
+
+.zajmy {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.zajmy ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.zajmy li {
+  width: 33.333%;
+  padding: 16px;
+  margin: 0 16px;
+  border: 2px dotted #d3d3d3;
+}
+
+.paticka {
+  background-color: #273582;
+  color: #fff;
+  text-align: center;
+}
+
+.paticka a {
+  color: #ffff00;
+}
+
+.pruzny {
+  display: flex;
+}
+
+.obsah {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+.kontakt img {
+  max-width: 50%;
+  margin-left: 24px;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -95px;
+  visibility: hidden;
+}

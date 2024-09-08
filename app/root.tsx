@@ -1,10 +1,7 @@
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
+import { Links, Meta, Outlet, Scripts, ScrollRestoration, } from "@remix-run/react";
+import './styles.css'
+import Header from "./routes/components/Header";
+import Footer from "./routes/components/Footer";
 
 export default function App() {
   return (
@@ -16,7 +13,10 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <Header />
         <Outlet />
+        <Footer />
+
         <ScrollRestoration />
         <Scripts />
       </body>

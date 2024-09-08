@@ -11,12 +11,12 @@ export default function Index() {
     return (
         <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
             <p>
-                Over the years, I’ve developed strong backend skills with .NET and C#, working on API design, database management, and server-side logic. Recently, 
-                I’ve expanded my expertise into the frontend world, mastering React to create visually appealing and highly interactive user interfaces. I believe in 
-                full-stack development and enjoy taking projects from concept to deployment.
+                I started my career focusing on backend development, where I honed my skills in building scalable applications with .NET and C#. I enjoyed the logic, 
+                structure, and problem-solving involved in backend work, but I always wanted to see the direct impact my code could have on users. This led me to 
+                frontend development, and now with React, I’m creating interactive, dynamic web applications that bring ideas to life in a more tangible way.
             </p>
             <p>
-                Technical Stack: Break this into categories (Backend, Frontend, Tools) with relevant technologies.
+                Technical Stack:
             </p>
             <ul>
                 <li>
@@ -29,6 +29,15 @@ export default function Index() {
                     <strong>Tools:</strong> Git, Visual Studio, DevOps tools
                 </li>
             </ul>
+            <p>
+                I love web development because it allows me to combine my logical side with my creative side. There’s something incredibly satisfying about solving a 
+                complex technical challenge and seeing that solution come to life in a way that people can interact with. It’s a blend of art and science that keeps me 
+                inspired every day.
+            </p>
+            <p>
+                When I’m not coding, I enjoy painting and exploring different forms of art, which helps me bring a creative perspective to my development work. I also 
+                love hiking and spending time in nature, where I find inspiration and balance.
+            </p>
         </div>
     );
 }
