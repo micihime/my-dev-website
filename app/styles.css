@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:900');
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 /*
 Barvy:
-czechitas růžová: #e5007d
-czechitas modrá: #273582
+czechitas růžová: #d27aaa
+czechitas modrá: #87a1b0
 */
 
 * {
@@ -22,7 +21,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #e5007d;
+  color: #d27aaa;
   text-align: center;
   font-family: Raleway, sans-serif;
 }
@@ -40,11 +39,11 @@ h3 {
 }
 
 a {
-  color: #273582;
+  color: #87a1b0;
 }
 
 a:hover {
-  color: #e5007d;
+  color: #d27aaa;
 }
 
 .zahlavi {
@@ -54,9 +53,9 @@ a:hover {
 }
 
 .logo {
-  color: #e5007d;
+  color: #d27aaa;
   font-size: 40px;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Raleway', cursive;
 }
 
 .navigace {
@@ -71,8 +70,8 @@ a:hover {
 }
 
 .o-mne {
-  background-color: #e5007d;
-  background-image: linear-gradient(#273582be, #e5007eb0), url(obrazky/podklad.jpg);
+  background-color: #d27aaa;
+  background-image: linear-gradient(#87a1b0be, #d27aaab0), url(obrazky/podklad.jpg);
   color: #fff;
   text-align: center;
 }
@@ -104,7 +103,7 @@ a:hover {
 }
 
 .paticka {
-  background-color: #273582;
+  background-color: #87a1b0;
   color: #fff;
   text-align: center;
 }

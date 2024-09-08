@@ -4,7 +4,7 @@ export default function Header() {
     return (
 	<div className="zahlavi">
 		<div className="obsah pruzny">
-			<div className="logo">Můj web</div>
+			<div className="logo">Mitchie</div>
       <ul className="navigace pruzny">
         <li>
           <a href="/about">About Me</a>
