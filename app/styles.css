@@ -4,7 +4,7 @@
 /*
 Colors:
 main: #d27aaa
-accent: #87a1b0
+accent: #273582
 */
 
 * {
@@ -38,7 +38,7 @@ h3 {
 }
 
 a {
-  color: #87a1b0;
+  color: #273582;
 }
 
 a:hover {
@@ -70,7 +70,7 @@ a:hover {
 
 .about-me {
   background-color: #d27aaa;
-  background-image: linear-gradient(#87a1b0be, #d27aaab0), url(obrazky/podklad.jpg);
+  background-image: linear-gradient(#273582be, #d27aaab0), url(obrazky/podklad.jpg);
   color: #fff;
   text-align: center;
 }
@@ -102,7 +102,7 @@ a:hover {
 }
 
 .footer {
-  background-color: #87a1b0;
+  background-color: #273582;
   color: #fff;
   text-align: center;
 }
@@ -115,7 +115,7 @@ a:hover {
   display: flex;
 }
 
-.obsah {
+.content {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;

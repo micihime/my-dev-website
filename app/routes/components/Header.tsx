@@ -3,7 +3,7 @@ import 'app/styles.css'
 export default function Header() {
     return (
 	<div className="header">
-		<div className="obsah flexi">
+		<div className="content flexi">
 			<div className="logo">Mitchie</div>
       <ul className="navbar flexi">
         <li>
