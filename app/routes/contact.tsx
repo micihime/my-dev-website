@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
+import { IconMail } from "@tabler/icons-react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -8,12 +9,18 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-    return (
-        <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-            <p>
-                A simple contact form with fields like name, email, and message, or you can provide your email address with a call to action to 
-                reach out for collaborations or opportunities.
-            </p>
+  return (
+    <div className="contact">
+      <div className="content">
+        <h2>Contact</h2>
+        <div className="flexi">
+          <p>
+            I&apos;m always open to exciting new opportunities and collaborations. Feel free to get in touch if you’d like to work together or simply share ideas.
+            <a href="mailto:mitchie.code@gmail.com"><IconMail /></a>
+          </p>
+          <img src="obrazky/mapa.png" alt="mapka" />
         </div>
-    );
+      </div>
+    </div>
+  );
 }

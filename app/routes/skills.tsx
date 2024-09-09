@@ -9,7 +9,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
     return (
-        <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+        <div className="values-list content">
             <p>
                 I started my career focusing on backend development, where I honed my skills in building scalable applications with .NET and C#. I enjoyed the logic, 
                 structure, and problem-solving involved in backend work, but I always wanted to see the direct impact my code could have on users. This led me to 
@@ -18,26 +18,20 @@ export default function Index() {
             <p>
                 Technical Stack:
             </p>
-            <ul>
+            <ul className="flexi">
                 <li>
-                    <strong>Backend:</strong> .NET, C#, SQL, API Design
+                    <h3>Backend:</h3> 
+                    .NET, C#, SQL
                 </li>
                 <li>
-                    <strong>Frontend:</strong> React, JavaScript, HTML, CSS
+                    <h3>Frontend:</h3> 
+                    React, Remix, TypeScript, HTML, CSS
                 </li>
                 <li>
-                    <strong>Tools:</strong> Git, Visual Studio, DevOps tools
+                    <h3>Tools:</h3> 
+                    Git, Visual Studio, Visual Studio Code, DevOps tools
                 </li>
             </ul>
-            <p>
-                I love web development because it allows me to combine my logical side with my creative side. There&apos;s something incredibly satisfying about solving a 
-                complex technical challenge and seeing that solution come to life in a way that people can interact with. It&apos;s a blend of art and science that keeps me 
-                inspired every day.
-            </p>
-            <p>
-                When I&apos;m not coding, I enjoy painting and exploring different forms of art, which helps me bring a creative perspective to my development work. I also 
-                love hiking and spending time in nature, where I find inspiration and balance.
-            </p>
         </div>
     );
 }
