@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <div className="o-mne">
+      <div className="about-me">
         <div className="obsah">
           <img src="obrazky/profil.jpg" alt="moje fotka" width="150" />
           <h1>From Code to Creativity: My Journey in Web Development</h1>

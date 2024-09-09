@@ -2,10 +2,10 @@ import 'app/styles.css'
 
 export default function Header() {
     return (
-	<div className="zahlavi">
-		<div className="obsah pruzny">
-			<div className="logo">Můj web</div>
-      <ul className="navigace pruzny">
+	<div className="header">
+		<div className="obsah flexi">
+			<div className="logo">Mitchie</div>
+      <ul className="navbar flexi">
         <li>
           <a href="/about">About Me</a>
         </li>

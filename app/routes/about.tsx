@@ -16,10 +16,10 @@ export default function Index() {
         include frontend development with React, allowing me to craft end-to-end web solutions. I love solving complex problems and creating intuitive 
         user experiences. I&apos;m always eager to learn, adapt, and innovate.
       </p>
-      <div className="zajmy">
+      <div className="values-list">
         <div className="obsah">
           <h2>Moje zájmy</h2>
-          <ul className="pruzny">
+          <ul className="flexi">
             <li>
               <img src="obrazky/007-sports.svg" alt="hobby 1" />
               <h3>Continuous Learning:</h3> 
