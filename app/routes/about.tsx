@@ -12,6 +12,11 @@ export default function Index() {
   return (
     <div className="values-list content">
       <h1>My Core Values</h1>
+      <p>
+        I love web development because it allows me to combine my logical side with my creative side. There&apos;s something incredibly satisfying about solving a 
+        complex technical challenge and seeing that solution come to life in a way that people can interact with. It&apos;s a blend of art and science that keeps me 
+        inspired every day.
+      </p>
       <ul className="flexi">
         <li>
           <IconSchool size={50} />
