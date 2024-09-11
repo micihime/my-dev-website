@@ -2,8 +2,8 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "About" },
-    { name: "description", content: "About me" },
+    { title: "Skills" },
+    { name: "description", content: "My skills" },
   ];
 };
 
