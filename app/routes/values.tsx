@@ -3,8 +3,8 @@ import { IconBulb, IconCode, IconSchool } from '@tabler/icons-react';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "About" },
-    { name: "description", content: "About me" },
+    { title: "Values" },
+    { name: "description", content: "My Core Values" },
   ];
 };
 

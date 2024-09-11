@@ -10,10 +10,10 @@ export default function Header() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/skills">Skills</a>
+          <a href="/values">My Values</a>
         </li>
         <li>
-          <a href="/about">Core Values</a>
+          <a href="/skills">Skills</a>
         </li>
         <li>
           <a href="/portfolio">Portfolio</a>
