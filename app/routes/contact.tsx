@@ -13,6 +13,7 @@ export default function Index() {
     <div className="content">
       <div className="flexi">
         <div>
+          <p>Let&apos;s get in touch!</p>
           <p>
             Over the years, I&apos;ve developed strong backend skills with .NET and C#, working on API design, database management, and server-side logic. Recently, 
             I&apos;ve expanded my expertise into the frontend world, mastering React to create visually appealing and highly interactive user interfaces. I believe in 

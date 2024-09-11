@@ -19,7 +19,7 @@ export default function Header() {
           <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/contact">Let&apos;s get in touch</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 		</div>
