@@ -7,7 +7,10 @@ export default function Header() {
 			<div className="logo">Mitchie</div>
       <ul className="navbar flexi">
         <li>
-          <a href="/about">About Me</a>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/values">My Values</a>
         </li>
         <li>
           <a href="/skills">Skills</a>

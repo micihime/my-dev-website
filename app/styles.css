@@ -15,12 +15,13 @@ body {
   margin: 0;
   font-size: 18px;
   font-family: Roboto, sans-serif;
+  background-color: #f5f5f5;
 }
 
 h1,
 h2,
 h3 {
-  color: #d27aaa;
+  color: #273582;
   text-align: center;
   font-family: Raleway, sans-serif;
 }
@@ -35,6 +36,10 @@ h2 {
 
 h3 {
   font-size: 24px;
+}
+
+p {
+  margin: 20px;
 }
 
 a {
@@ -52,7 +57,7 @@ a:hover {
 }
 
 .logo {
-  color: #d27aaa;
+  color: #273582;
   font-size: 40px;
   font-family: 'Raleway', cursive;
 }
@@ -69,18 +74,27 @@ a:hover {
 }
 
 .about-me {
+  padding: 20px;
   background-color: #d27aaa;
-  background-image: linear-gradient(#273582be, #d27aaab0), url(obrazky/podklad.jpg);
-  color: #fff;
+  background-image: linear-gradient(#1a2355be, #d29cbab0);
+  color: #f5f5f5;
   text-align: center;
 }
 
-.about-me h1 {
-  color: #fff;
+.about-me h1, h2 {
+  color: #f5f5f5;
 }
 
 .about-me img {
   border-radius: 50%;
+}
+
+.project h2 {
+  color: #273582;
+}
+
+.smaller p {
+  font-size: smaller;
 }
 
 .values-list {
