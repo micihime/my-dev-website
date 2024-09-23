@@ -45,7 +45,7 @@ export default function Index() {
                     and play!
                 </p>
                 <p>
-                    Find out more about it <a href="#">here</a>.
+                    Find out more about it <a href="https://fabulous-semifreddo-2a1ebd.netlify.app/">here</a>.
                 </p>                
             </div>
             <div className="project">
