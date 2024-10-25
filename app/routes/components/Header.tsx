@@ -1,4 +1,5 @@
 import "app/styles.css";
+import Nav from "./Navigation";
 
 export default function Header() {
   return (
@@ -7,7 +8,8 @@ export default function Header() {
         <a href="/">
           <div className="logo">Mitchie</div>
         </a>
-        <ul className="navbar flexi">
+        <Nav />
+        {/* <ul className="navbar flexi">
           <li>
             <a href="/skills">Skills</a>
           </li>
@@ -17,7 +19,7 @@ export default function Header() {
           <li>
             <a href="/contact">Contact</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
