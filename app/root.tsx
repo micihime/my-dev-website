@@ -1,5 +1,11 @@
-import { Links, Meta, Outlet, Scripts, ScrollRestoration, } from "@remix-run/react";
-import './styles.css'
+import {
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from "@remix-run/react";
+import "./styles.css";
 import Header from "./routes/components/Header";
 import Footer from "./routes/components/Footer";
 

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:900");
 
 /*
 Colors:
@@ -59,7 +59,7 @@ a:hover {
 .logo {
   color: #273582;
   font-size: 40px;
-  font-family: 'Raleway', cursive;
+  font-family: "Raleway", cursive;
 }
 
 .navbar {
@@ -102,7 +102,8 @@ a:hover {
   text-align: center;
 }
 
-.about-me h1, h2 {
+.about-me h1,
+h2 {
   color: #f5f5f5;
 }
 
@@ -156,7 +157,7 @@ a:hover {
   .values-list .flexi {
     flex-direction: column;
   }
-  
+
   .values-list .flexi li {
     width: 100%;
   }
