@@ -73,24 +73,38 @@ a:hover {
   padding: 8px 24px;
 }
 
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
+  .mobile-menu-button {
+      display: block;
+  }
+
   .navbar {
-    flex-direction: column;
-    width: 100%;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .navbar.menu-open {
+      display: flex;
   }
 
   .navbar li {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
   }
 
   .header .content {
-    flex-direction: column;
-  }
-
-  .logo {
-    margin-bottom: 15px;
+      flex-direction: column;
+      align-items: flex-start;
   }
 }
 
