@@ -51,7 +51,6 @@ a:hover {
 }
 
 .header {
-  height: 80px;
   background-color: #f5f5f5;
   position: sticky;
   top: 0;
@@ -74,38 +73,24 @@ a:hover {
   padding: 8px 24px;
 }
 
-.mobile-menu-button {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 768px) {
-  .mobile-menu-button {
-      display: block;
-  }
-
   .navbar {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-  }
-
-  .navbar.menu-open {
-      display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   .navbar li {
-      width: 100%;
-      text-align: center;
-      padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
   }
 
   .header .content {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 15px;
   }
 }
 
@@ -179,13 +164,8 @@ h2 {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   background-color: #273582;
   color: #fff;
-  padding: 1rem 0;
   text-align: center;
 }
 
@@ -199,14 +179,14 @@ h2 {
 
 .content {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
 }
 
-.profile-image {
-  max-width: 20%;
+.contact img {
+  max-width: 50%;
   margin-left: 24px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .anchor {
