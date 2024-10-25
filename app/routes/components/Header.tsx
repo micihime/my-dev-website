@@ -1,22 +1,13 @@
-import { useState } from "react";
 import "app/styles.css";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <div className="header">
       <div className="content flexi">
         <a href="/">
           <div className="logo">Mitchie</div>
         </a>
-        <button
-          className="mobile-menu-button"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          ☰
-        </button>
-        <ul className={`navbar flexi ${isMenuOpen ? "menu-open" : ""}`}>
+        <ul className="navbar flexi">
           <li>
             <a href="/skills">Skills</a>
           </li>
