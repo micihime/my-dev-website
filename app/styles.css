@@ -136,6 +136,19 @@ a:hover {
   border: 2px dotted #d3d3d3;
 }
 
+.values-list .flexi {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .values-list .flexi {
+    flex-direction: column;
+  }
+}
+
 .footer {
   background-color: #273582;
   color: #fff;
