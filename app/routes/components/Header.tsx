@@ -18,9 +18,6 @@ export default function Header() {
         </button>
         <ul className={`navbar flexi ${isMenuOpen ? "menu-open" : ""}`}>
           <li>
-            <a href="/values">My Values</a>
-          </li>
-          <li>
             <a href="/skills">Skills</a>
           </li>
           <li>

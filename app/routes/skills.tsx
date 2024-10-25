@@ -8,28 +8,26 @@ export default function Index() {
   return (
     <div className="content">
       <p>
-        I started my career focusing on backend development, where I honed my
-        skills in building scalable applications with .NET and C#. I enjoyed the
-        logic, structure, and problem-solving involved in backend work, but I
-        always wanted to see the direct impact my code could have on users. This
-        led me to frontend development, and now with React, I&apos;m creating
-        interactive, dynamic web applications that bring ideas to life in a more
-        tangible way.
+        I love web development because it allows me to combine my logical side
+        with my creative side. There&apos;s something incredibly satisfying
+        about solving a complex technical challenge and seeing that solution
+        come to life in a way that people can interact with. It&apos;s a blend
+        of art and science that keeps me inspired every day.
       </p>
       <h3>Technical Stack</h3>
       <div className="values-list">
         <ul className="flexi">
           <li>
             <h3>Backend:</h3>
-            .NET, C#, SQL
+            <p>.NET, C#, SQL</p>
           </li>
           <li>
             <h3>Frontend:</h3>
-            React, Remix, TypeScript, HTML, CSS
+            <p>React, Remix, TypeScript, HTML, CSS</p>
           </li>
           <li>
             <h3>Tools:</h3>
-            Git, Visual Studio, Visual Studio Code, DevOps tools
+            <p>Git, Visual Studio, Visual Studio Code, DevOps tools</p>
           </li>
         </ul>
       </div>

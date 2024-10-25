@@ -198,9 +198,11 @@ h2 {
   padding: 24px;
 }
 
-.contact img {
-  max-width: 50%;
+.profile-image {
+  max-width: 20%;
   margin-left: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .anchor {
