@@ -23,7 +23,7 @@ export default function Index() {
             </a>
           </p>
         </div>
-        <img src="/img/contact.jpg" alt="profile" className="profile-image" />
+        {/* <img src="/img/contact.jpg" alt="profile" className="profile-image" /> */}
       </div>
     </div>
   );
