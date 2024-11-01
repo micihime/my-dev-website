@@ -16,10 +16,16 @@ export default function Nav() {
   return (
     <div>
       <div className={navigationClass}>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact us</li>
+      <ul className="navbar flexi">
+          <li>
+            <a href="/skills">Skills</a>
+          </li>
+          <li>
+            <a href="/portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
         </ul>
         <button
           className="hamburger"
