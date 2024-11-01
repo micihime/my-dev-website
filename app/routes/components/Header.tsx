@@ -1,25 +1,15 @@
 import "app/styles.css";
 import Nav from "./Navigation";
+import styles from "./Header.module.css";
 
 export default function Header() {
   return (
-    <div className="header">
-      <div className="content flexi">
-        <a href="/">
-          <div className="logo">Mitchie</div>
-        </a>
+    <div className={styles.header}>
+      <div className={`${styles.content} flexi`}>
+        <div className={styles.logo}>
+          <a href="/">Mitchie</a>
+        </div>
         <Nav />
-        {/* <ul className="navbar flexi">
-          <li>
-            <a href="/skills">Skills</a>
-          </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul> */}
       </div>
     </div>
   );

@@ -23,7 +23,7 @@
 
 @media (max-width: 767px) {
   .navigation ul {
-    display: none; /* default state */
+    display: none;
     background-color: blue;
     height: 100vh;
     width: 50vw;
@@ -32,11 +32,11 @@
   }
 
   .navigationOpen ul {
-    display: inline; /* shown when menu is open */
+    display: inline;
   }
 
   .hamburger {
-    display: block; /* Show only on mobile screens */
+    display: block;
     position: fixed;
     right: 20px;
     top: 20px;
