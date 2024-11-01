@@ -16,7 +16,7 @@ export default function Nav() {
   return (
     <div>
       <div className={navigationClass}>
-      <ul className="navbar flexi">
+        <ul className="navbar flexi">
           <li>
             <a href="/skills">Skills</a>
           </li>
@@ -28,7 +28,7 @@ export default function Nav() {
           </li>
         </ul>
         <button
-          className="hamburger"
+          className={styles.hamburger}
           onClick={toggleHamburger}
           onKeyDown={(e) => {
             if (e.key === "Enter" || e.key === " ") {

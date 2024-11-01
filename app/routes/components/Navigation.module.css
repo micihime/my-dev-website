@@ -19,7 +19,6 @@
 
 .hamburger {
   display: none;
-  z-index: 6;
 }
 
 @media (max-width: 767px) {
@@ -34,5 +33,13 @@
 
   .navigationOpen ul {
     display: inline; /* shown when menu is open */
+  }
+
+  .hamburger {
+    display: block; /* Show only on mobile screens */
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 6;
   }
 }
