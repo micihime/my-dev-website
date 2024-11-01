@@ -50,30 +50,6 @@ a:hover {
   color: #d27aaa;
 }
 
-.navbar {
-  list-style: none;
-  margin: 0 0 0 auto;
-  padding: 0;
-}
-
-.navbar a {
-  display: block;
-  padding: 8px 24px;
-}
-
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .navbar li {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-  }
-}
-
 .about-me {
   padding: 20px;
   background-color: #d27aaa;
