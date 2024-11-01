@@ -13,25 +13,17 @@ export default function Index() {
     <div className="content">
       <div className="flexi">
         <div>
-          <p>Let&apos;s get in touch!</p>
+          <p>Let&apos;s Connect!</p>
           <p>
-            Over the years, I&apos;ve developed strong backend skills with .NET
-            and C#, working on API design, database management, and server-side
-            logic. Recently, I&apos;ve expanded my expertise into the frontend
-            world, mastering React to create visually appealing and highly
-            interactive user interfaces. I believe in full-stack development and
-            enjoy taking projects from concept to deployment.
-          </p>
-          <p>
-            I&apos;m always open to exciting new opportunities and
-            collaborations. Feel free to get in touch if you’d like to work
-            together or simply share ideas.
+            If you&apos;re interested in collaborating, discussing ideas, or
+            have an exciting opportunity in mind, don&apos;t hesitate to reach out.
+            Let&apos;s create something great together!
             <a href="mailto:mitchie.code@gmail.com">
               <IconMail />
             </a>
           </p>
         </div>
-        <img src="/img/contact.jpg" alt="profile" height="200" />
+        {/* <img src="/img/contact.jpg" alt="profile" className="profile-image" /> */}
       </div>
     </div>
   );
