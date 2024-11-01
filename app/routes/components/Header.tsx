@@ -21,7 +21,7 @@ export default function Header() {
           <a href="/">Mitchie</a>
         </div>
         <div className={navigationClass}>
-          <ul className={styles.navbar}>
+          <ul>
             <li>
               <a href="/skills">Skills</a>
             </li>
