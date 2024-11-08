@@ -44,9 +44,9 @@ export default function Header() {
             aria-expanded={hamburgerOpen}
           >
             {hamburgerOpen ? (
-              <IconX size={24} stroke={1.5} />
+              <IconX size={34} stroke={1.5} />
             ) : (
-              <IconMenu2 size={24} stroke={1.5} />
+              <IconMenu2 size={34} stroke={1.5} />
             )}
           </button>
         </div>
