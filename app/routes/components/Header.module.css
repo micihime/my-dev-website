@@ -87,10 +87,19 @@
   }
 
   .hamburger {
-    display: block;
+    right: 35px;
+    top: 35px;
     position: fixed;
-    right: 20px;
-    top: 20px;
+    background: none;
+    border: none;
+    color: inherit;
+    display: flex;
     z-index: 6;
+  }
+
+  .hamburger:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
   }
 }

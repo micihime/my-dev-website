@@ -1,5 +1,5 @@
 import "app/styles.css";
-import Hamburger from "./Hamburger";
+import { IconMenu2, IconX } from "@tabler/icons-react";
 import { useState } from "react";
 import styles from "./Header.module.css";
 
@@ -43,7 +43,11 @@ export default function Header() {
             aria-label="Menu"
             aria-expanded={hamburgerOpen}
           >
-            <Hamburger isOpen={hamburgerOpen} />
+            {hamburgerOpen ? (
+              <IconX size={24} stroke={1.5} />
+            ) : (
+              <IconMenu2 size={24} stroke={1.5} />
+            )}
           </button>
         </div>
       </div>
