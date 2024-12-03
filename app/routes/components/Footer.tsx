@@ -24,14 +24,14 @@ export default function Index() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IconBrandGithub size={18} />
+          <IconBrandLinkedin size={18} />
         </a>
         <a
           href="https://github.com/micihime"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IconBrandLinkedin size={18} />
+          <IconBrandGithub size={18} />
         </a>
       </div>
     </div>
