@@ -19,11 +19,11 @@ export default function Index() {
         <ul className="flexi">
           <li>
             <h3>Backend:</h3>
-            <p>.NET, C#, SQL</p>
+            <p>.NET, C#, SQL, TypeScript / JavaScript</p>
           </li>
           <li>
             <h3>Frontend:</h3>
-            <p>React, Remix, TypeScript, HTML, CSS</p>
+            <p>React, Remix, TypeScript / JavaScript, HTML, CSS</p>
           </li>
           <li>
             <h3>Tools:</h3>
