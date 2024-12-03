@@ -22,6 +22,9 @@ export default function Header() {
         </div>
         <div className={navigationClass}>
           <ul>
+          <li>
+              <a href="/">Home</a>
+            </li>
             <li>
               <a href="/skills">Skills</a>
             </li>
