@@ -1,7 +1,19 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "Skills" }, { name: "description", content: "My skills" }];
+  return [
+    { title: "Technical Skills | Mitchie - Full Stack Developer" },
+    {
+      name: "description",
+      content:
+        "Expertise in .NET, C#, React, and modern web development technologies. Full stack development skills and professional experience.",
+    },
+    { property: "og:title", content: "Developer Skills & Expertise | Mitchie" },
+    {
+      property: "og:description",
+      content: "Technical skills and expertise in full stack web development",
+    },
+  ];
 };
 
 export default function Index() {

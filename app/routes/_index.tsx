@@ -2,8 +2,26 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Mitchie" },
-    { name: "description", content: "Welcome to my website!" },
+    { title: "Mitchie | Full Stack Web Developer" },
+    {
+      name: "description",
+      content:
+        "Full Stack Developer specializing in .NET, C#, and React. Creating efficient, scalable web applications with a focus on user experience and modern development practices.",
+    },
+    {
+      name: "keywords",
+      content:
+        "web developer, full stack developer, .NET developer, React developer, C#, frontend development, backend development",
+    },
+    { name: "author", content: "Mitchie" },
+    { property: "og:title", content: "Mitchie | Full Stack Web Developer" },
+    {
+      property: "og:description",
+      content:
+        "Full Stack Developer specializing in .NET, C#, and React. Creating efficient, scalable web applications with a focus on user experience.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:image", content: "/img/profile.jpg" },
   ];
 };
 

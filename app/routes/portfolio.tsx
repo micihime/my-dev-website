@@ -2,8 +2,18 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Portfolio" },
-    { name: "description", content: "My projects" },
+    { title: "Projects & Portfolio | Mitchie - Full Stack Developer" },
+    {
+      name: "description",
+      content:
+        "Explore my web development projects showcasing .NET, React, and full-stack applications. View live demos and technical implementations.",
+    },
+    { property: "og:title", content: "Developer Portfolio | Mitchie" },
+    {
+      property: "og:description",
+      content:
+        "Collection of full-stack web development projects and applications",
+    },
   ];
 };
 
