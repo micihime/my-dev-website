@@ -2,16 +2,37 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Technical Skills | Mitchie - Full Stack Developer" },
+    {
+      title:
+        "Transitioning from .NET to React: A Developer's Journey | Mitchie",
+    },
     {
       name: "description",
       content:
-        "Expertise in .NET, C#, React, and modern web development technologies. Full stack development skills and professional experience.",
+        "Learn about the challenges and solutions when moving from .NET to React development. Practical tips for adapting to frontend-first mindset, component-based architecture, and modern JavaScript ecosystem.",
     },
-    { property: "og:title", content: "Developer Skills & Expertise | Mitchie" },
+    {
+      name: "keywords",
+      content:
+        ".NET to React, frontend development, component-based architecture, JavaScript ecosystem, React transition, full stack development, React hooks, state management",
+    },
+    { name: "author", content: "Mitchie" },
+    {
+      property: "og:title",
+      content: "Transitioning from .NET to React: A Developer's Journey",
+    },
     {
       property: "og:description",
-      content: "Technical skills and expertise in full stack web development",
+      content:
+        "Comprehensive guide on moving from .NET to React development, including challenges, differences, and practical adaptation tips.",
+    },
+    { property: "og:type", content: "article" },
+    { property: "article:published_time", content: "2024-01-01" },
+    { property: "article:author", content: "Mitchie" },
+    { property: "article:section", content: "Web Development" },
+    {
+      property: "article:tag",
+      content: "React, .NET, Web Development, Frontend",
     },
   ];
 };
@@ -143,8 +164,8 @@ export default function Index() {
 
       <h3>Master State Management</h3>
       <p>
-        Start with React&apos;s useState and useContext before diving into libraries
-        like Redux or Zustand.
+        Start with React&apos;s useState and useContext before diving into
+        libraries like Redux or Zustand.
       </p>
 
       <h3>Get Comfortable with the Dev Environment</h3>
@@ -157,8 +178,8 @@ export default function Index() {
 
       <h3>Improved User Experience</h3>
       <p>
-        React&apos;s interactivity and responsiveness create richer, more engaging
-        apps.
+        React&apos;s interactivity and responsiveness create richer, more
+        engaging apps.
       </p>
 
       <h3>Separation of Concerns</h3>

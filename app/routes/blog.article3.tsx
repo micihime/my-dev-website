@@ -2,16 +2,36 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Technical Skills | Mitchie - Full Stack Developer" },
+    {
+      title:
+        "Remix Deep Dive: Understanding Routing, Data Fetching & SSR | Mitchie's Dev Blog",
+    },
     {
       name: "description",
       content:
-        "Expertise in .NET, C#, React, and modern web development technologies. Full stack development skills and professional experience.",
+        "Comprehensive guide to Remix framework's key features: file-based routing, data loading patterns, and server-side rendering (SSR). Learn how Remix simplifies modern web development.",
     },
-    { property: "og:title", content: "Developer Skills & Expertise | Mitchie" },
+    {
+      name: "keywords",
+      content:
+        "Remix framework, server-side rendering, SSR, file-based routing, data fetching, web development, React, JavaScript frameworks, nested routes, loader functions",
+    },
+    {
+      property: "og:title",
+      content: "Remix Framework Deep Dive: Routing, Data Fetching & SSR",
+    },
     {
       property: "og:description",
-      content: "Technical skills and expertise in full stack web development",
+      content:
+        "Discover how Remix simplifies web development with its powerful routing, data fetching, and server-side rendering capabilities.",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      name: "author",
+      content: "Mitchie",
     },
   ];
 };
@@ -26,10 +46,11 @@ export default function Index() {
 
       <p>
         Remix is redefining web development with its focus on performance,
-        developer experience, and modern web standards. In this article, we&apos;ll
-        dive into three of its standout features: routing, data fetching, and
-        server-side rendering (SSR). By the end, you&apos;ll see how Remix makes
-        building web apps not only easier but also more efficient.
+        developer experience, and modern web standards. In this article,
+        we&apos;ll dive into three of its standout features: routing, data
+        fetching, and server-side rendering (SSR). By the end, you&apos;ll see
+        how Remix makes building web apps not only easier but also more
+        efficient.
       </p>
 
       <section>
@@ -52,8 +73,8 @@ export default function Index() {
 
         <h3>Nested Routes</h3>
         <p>
-          Remix&apos;s nested routes allow you to build hierarchies of components
-          that mirror your URL structure.
+          Remix&apos;s nested routes allow you to build hierarchies of
+          components that mirror your URL structure.
         </p>
         <p>Example:</p>
         <pre>/dashboard ├── /dashboard/profile └── /dashboard/settings</pre>
@@ -158,8 +179,8 @@ export default function Index() {
         <h2>Conclusion</h2>
         <p>
           Remix streamlines web development by focusing on simplicity and
-          performance. Whether you&apos;re building a blog, an e-commerce site, or a
-          complex web application, its features make it a great choice for
+          performance. Whether you&apos;re building a blog, an e-commerce site,
+          or a complex web application, its features make it a great choice for
           modern web apps.
         </p>
         <p>

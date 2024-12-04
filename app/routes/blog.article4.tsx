@@ -2,16 +2,43 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Technical Skills | Mitchie - Full Stack Developer" },
+    {
+      title: "Impostor Syndrome in Software Development | Mitchie's Dev Blog",
+    },
     {
       name: "description",
       content:
-        "Expertise in .NET, C#, React, and modern web development technologies. Full stack development skills and professional experience.",
+        "Learn how to recognize and overcome impostor syndrome as a software developer. Practical strategies, personal experiences, and actionable tips for building confidence in your development career.",
     },
-    { property: "og:title", content: "Developer Skills & Expertise | Mitchie" },
+    {
+      name: "keywords",
+      content:
+        "impostor syndrome, software development, developer confidence, tech career, programming challenges, developer mindset, tech industry, professional growth",
+    },
+    {
+      property: "og:title",
+      content: "Overcoming Impostor Syndrome in Software Development | Mitchie",
+    },
     {
       property: "og:description",
-      content: "Technical skills and expertise in full stack web development",
+      content:
+        "Practical guide to recognizing and overcoming impostor syndrome as a software developer, with real-world strategies and personal insights.",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      name: "author",
+      content: "Mitchie",
+    },
+    {
+      property: "article:published_time",
+      content: "2024-01-20",
+    },
+    {
+      property: "article:section",
+      content: "Career Development",
     },
   ];
 };
@@ -25,11 +52,11 @@ export default function Index() {
 
       <p>
         Impostor syndrome—the persistent feeling of self-doubt and fear of being
-        &quot;exposed&quot; as a fraud—is something many developers face, regardless of
-        experience or skill level. In an industry that&apos;s constantly
-        evolving, it&apos;s easy to feel like you&apos;re not doing enough,
-        learning fast enough, or contributing meaningfully. If this sounds
-        familiar, you&apos;re not alone.
+        &quot;exposed&quot; as a fraud—is something many developers face,
+        regardless of experience or skill level. In an industry that&apos;s
+        constantly evolving, it&apos;s easy to feel like you&apos;re not doing
+        enough, learning fast enough, or contributing meaningfully. If this
+        sounds familiar, you&apos;re not alone.
       </p>
 
       <h2>What Is Impostor Syndrome?</h2>
@@ -87,8 +114,8 @@ export default function Index() {
         </li>
         <li>
           <strong>Perfectionism:</strong> Delaying projects because the code
-          isn&apos;t &quot;perfect&quot; or trying to master every tiny detail before
-          moving forward.
+          isn&apos;t &quot;perfect&quot; or trying to master every tiny detail
+          before moving forward.
         </li>
         <li>
           <strong>Underestimating Skills:</strong> Thinking your skills
@@ -116,8 +143,8 @@ export default function Index() {
       <h3>2. Reframe Negative Thoughts</h3>
       <ul>
         <li>
-          Replace &quot;I don&apos;t know enough&quot; with &quot;I&apos;m always learning, and
-          that&apos;s okay.&quot;
+          Replace &quot;I don&apos;t know enough&quot; with &quot;I&apos;m
+          always learning, and that&apos;s okay.&quot;
         </li>
         <li>Remember: Technology is vast; no one knows everything.</li>
       </ul>
@@ -157,8 +184,8 @@ export default function Index() {
       <p>
         When I transitioned from backend development in .NET to frontend with
         React, impostor syndrome hit me hard. I constantly felt like I
-        wasn&apos;t learning fast enough or that I didn&apos;t &quot;deserve&quot; my
-        role. But over time, I realized:
+        wasn&apos;t learning fast enough or that I didn&apos;t
+        &quot;deserve&quot; my role. But over time, I realized:
       </p>
       <ul>
         <li>My .NET experience brought valuable insights to the table.</li>

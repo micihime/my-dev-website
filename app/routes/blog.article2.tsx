@@ -2,16 +2,41 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Technical Skills | Mitchie - Full Stack Developer" },
+    {
+      title:
+        ".NET MVC vs Remix Framework Comparison | Mitchie's Development Blog",
+    },
     {
       name: "description",
       content:
-        "Expertise in .NET, C#, React, and modern web development technologies. Full stack development skills and professional experience.",
+        "In-depth comparison of .NET MVC and Remix frameworks, exploring their strengths, weaknesses, and ideal use cases for web development projects. Learn which framework best suits your needs.",
     },
-    { property: "og:title", content: "Developer Skills & Expertise | Mitchie" },
+    {
+      name: "keywords",
+      content:
+        ".NET MVC, Remix, web development frameworks, framework comparison, enterprise development, modern web apps, full-stack development, React, C#",
+    },
+    {
+      property: "og:title",
+      content:
+        ".NET MVC vs Remix: A Developer's Guide to Choosing the Right Framework",
+    },
     {
       property: "og:description",
-      content: "Technical skills and expertise in full stack web development",
+      content:
+        "Comprehensive comparison of .NET MVC and Remix frameworks - features, performance, use cases, and development experience.",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      name: "author",
+      content: "Mitchie",
+    },
+    {
+      property: "article:published_time",
+      content: "2024-01-01", // Replace with actual publication date
     },
   ];
 };
@@ -26,8 +51,9 @@ export default function Index() {
       <p>
         Web development offers countless frameworks, each with unique
         philosophies. .NET MVC and Remix are two powerful tools, but they cater
-        to different needs. Here&apos;s a comparison of their strengths, weaknesses,
-        and best use cases to help you choose the right one for your project.
+        to different needs. Here&apos;s a comparison of their strengths,
+        weaknesses, and best use cases to help you choose the right one for your
+        project.
       </p>
 
       <section>
