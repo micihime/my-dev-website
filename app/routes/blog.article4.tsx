@@ -18,131 +18,173 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="content">
-      Impostor Syndrome as a Developer: Recognizing It and Overcoming It 
+    <article className="content">
+      <h1>
+        Impostor Syndrome as a Developer: Recognizing It and Overcoming It
+      </h1>
 
-Impostor syndrome—the persistent feeling of self-doubt and fear of being quote exposed unquote as a fraud—is something many developers face, regardless of experience or skill level. In an industry that’s constantly evolving, it’s easy to feel like you’re not doing enough, learning fast enough, or contributing meaningfully. If this sounds familiar, you’re not alone. 
+      <p>
+        Impostor syndrome—the persistent feeling of self-doubt and fear of being
+        &quot;exposed&quot; as a fraud—is something many developers face, regardless of
+        experience or skill level. In an industry that&apos;s constantly
+        evolving, it&apos;s easy to feel like you&apos;re not doing enough,
+        learning fast enough, or contributing meaningfully. If this sounds
+        familiar, you&apos;re not alone.
+      </p>
 
-In this article, we&apos;ll explore what impostor syndrome is, how it manifests in the tech world, and strategies to overcome it. 
+      <h2>What Is Impostor Syndrome?</h2>
+      <p>
+        First identified in the 1970s, impostor syndrome refers to a
+        psychological pattern where individuals doubt their accomplishments and
+        fear being exposed as a fraud. In tech, this can look like:
+      </p>
+      <ul>
+        <li>
+          Dismissing success as luck: Attributing a successful project to
+          external factors rather than your skills.
+        </li>
+        <li>
+          Feeling unworthy: Believing you don&apos;t belong in a job or team
+          despite meeting qualifications.
+        </li>
+        <li>
+          Overworking: Compensating for perceived inadequacy by over-preparing
+          or taking on too much.
+        </li>
+      </ul>
 
- 
+      <h2>Why Is It Common Among Developers?</h2>
+      <h3>Fast-Paced Industry</h3>
+      <p>
+        Technology evolves quickly, making it hard to keep up with the latest
+        trends and tools.
+      </p>
 
-What Is Impostor Syndrome? 
+      <h3>Comparison Culture</h3>
+      <p>
+        Platforms like LinkedIn and GitHub showcase others&apos; achievements,
+        leading to unhealthy comparisons.
+      </p>
 
-First identified in the 1970s, impostor syndrome refers to a psychological pattern where individuals doubt their accomplishments and fear being exposed as a fraud. In tech, this can look like: 
+      <h3>Imposter-Friendly Milestones</h3>
+      <p>
+        Frequent job changes, imposter-friendly career pivots, and a steep
+        learning curve for technologies like React, Remix, or .NET make
+        developers feel they&apos;re always catching up.
+      </p>
 
-Dismissing success as luck: Attributing a successful project to external factors rather than your skills. 
+      <h3>Lack of Recognition</h3>
+      <p>
+        Often, non-technical stakeholders don&apos;t fully understand the value
+        of a developer&apos;s work, leaving many feeling undervalued.
+      </p>
 
-Feeling unworthy: Believing you don’t belong in a job or team despite meeting qualifications. 
+      <h2>How Impostor Syndrome Manifests for Developers</h2>
+      <ul>
+        <li>
+          <strong>Avoiding Challenges:</strong> Opting out of challenging
+          projects out of fear of failure.
+        </li>
+        <li>
+          <strong>Perfectionism:</strong> Delaying projects because the code
+          isn&apos;t &quot;perfect&quot; or trying to master every tiny detail before
+          moving forward.
+        </li>
+        <li>
+          <strong>Underestimating Skills:</strong> Thinking your skills
+          aren&apos;t &quot;real&quot; or advanced enough compared to others.
+        </li>
+        <li>
+          <strong>Fear of Asking Questions:</strong> Avoiding asking for help to
+          not appear inexperienced.
+        </li>
+      </ul>
 
-Overworking: Compensating for perceived inadequacy by over-preparing or taking on too much. 
+      <h2>Strategies to Overcome Impostor Syndrome</h2>
+      <h3>1. Recognize It for What It Is</h3>
+      <ul>
+        <li>
+          Understand that impostor syndrome is a common psychological pattern,
+          not a reflection of your actual abilities.
+        </li>
+        <li>
+          Even seasoned developers experience it—acknowledging this can ease
+          self-doubt.
+        </li>
+      </ul>
 
- 
+      <h3>2. Reframe Negative Thoughts</h3>
+      <ul>
+        <li>
+          Replace &quot;I don&apos;t know enough&quot; with &quot;I&apos;m always learning, and
+          that&apos;s okay.&quot;
+        </li>
+        <li>Remember: Technology is vast; no one knows everything.</li>
+      </ul>
 
-Why Is It Common Among Developers? 
+      <h3>3. Celebrate Small Wins</h3>
+      <ul>
+        <li>
+          Keep a journal or log of your achievements, no matter how small.
+        </li>
+        <li>
+          Reflect on past challenges you&apos;ve overcome to build confidence.
+        </li>
+      </ul>
 
-Fast-Paced Industry 
+      <h3>4. Embrace Collaboration</h3>
+      <ul>
+        <li>
+          Asking questions or seeking feedback doesn&apos;t make you less
+          capable—it shows initiative and willingness to grow.
+        </li>
+        <li>Sharing knowledge also reinforces your expertise.</li>
+      </ul>
 
-Technology evolves quickly, making it hard to keep up with the latest trends and tools. 
+      <h3>5. Set Realistic Goals</h3>
+      <ul>
+        <li>
+          Focus on incremental learning rather than trying to master everything
+          at once.
+        </li>
+        <li>
+          Prioritize skills relevant to your role instead of chasing every
+          trending technology.
+        </li>
+      </ul>
 
-Comparison Culture 
+      <h2>My Personal Journey</h2>
+      <p>
+        When I transitioned from backend development in .NET to frontend with
+        React, impostor syndrome hit me hard. I constantly felt like I
+        wasn&apos;t learning fast enough or that I didn&apos;t &quot;deserve&quot; my
+        role. But over time, I realized:
+      </p>
+      <ul>
+        <li>My .NET experience brought valuable insights to the table.</li>
+        <li>
+          Everyone has gaps in knowledge, even the experts I looked up to.
+        </li>
+        <li>
+          Asking questions and seeking mentorship accelerated my growth far more
+          than trying to figure everything out alone.
+        </li>
+      </ul>
 
-Platforms like LinkedIn and GitHub showcase others’ achievements, leading to unhealthy comparisons. 
+      <h2>Conclusion</h2>
+      <p>
+        Impostor syndrome may never completely disappear, but with
+        self-awareness and the right strategies, you can stop it from holding
+        you back. Remember, you&apos;re not alone in feeling this way, and every
+        developer—no matter how skilled—has moments of doubt. What matters is
+        how you move forward.
+      </p>
 
-Imposter-Friendly Milestones 
-
-Frequent job changes, imposter-friendly career pivots, and a steep learning curve for technologies like React, Remix, or .NET make developers feel they&apos;re always catching up. 
-
-Lack of Recognition 
-
-Often, non-technical stakeholders don’t fully understand the value of a developer’s work, leaving many feeling undervalued. 
-
- 
-
-How Impostor Syndrome Manifests for Developers 
-
-Avoiding Challenges 
-
-Opting out of challenging projects out of fear of failure. 
-
-Perfectionism 
-
-Delaying projects because the code isn’t “perfect” or trying to master every tiny detail before moving forward. 
-
-Underestimating Skills 
-
-Thinking your skills aren’t “real” or advanced enough compared to others. 
-
-Fear of Asking Questions 
-
-Avoiding asking for help to not appear inexperienced. 
-
- 
-
-Strategies to Overcome Impostor Syndrome 
-
-1. Recognize It for What It Is 
-
-Understand that impostor syndrome is a common psychological pattern, not a reflection of your actual abilities. 
-
-Even seasoned developers experience it—acknowledging this can ease self-doubt. 
-
-2. Reframe Negative Thoughts 
-
-Replace “I don’t know enough” with “I’m always learning, and that’s okay.” 
-
-Remember: Technology is vast; no one knows everything. 
-
-3. Celebrate Small Wins 
-
-Keep a journal or log of your achievements, no matter how small. 
-
-Reflect on past challenges you’ve overcome to build confidence. 
-
-4. Embrace Collaboration 
-
-Asking questions or seeking feedback doesn’t make you less capable—it shows initiative and willingness to grow. 
-
-Sharing knowledge also reinforces your expertise. 
-
-5. Set Realistic Goals 
-
-Focus on incremental learning rather than trying to master everything at once. 
-
-Prioritize skills relevant to your role instead of chasing every trending technology. 
-
-6. Seek Support 
-
-Connect with peers or mentors who’ve faced similar struggles. Their guidance can provide valuable perspective. 
-
-Consider professional mentoring programs or online communities for developers. 
-
-7. Practice Self-Compassion 
-
-Treat yourself with the same kindness you would offer a struggling colleague. 
-
-Understand that mistakes are part of growth and not a reflection of your worth. 
-
- 
-
-My Personal Journey 
-
-When I transitioned from backend development in .NET to frontend with React, impostor syndrome hit me hard. I constantly felt like I wasn’t learning fast enough or that I didn’t “deserve” my role. But over time, I realized: 
-
-My .NET experience brought valuable insights to the table. 
-
-Everyone has gaps in knowledge, even the experts I looked up to. 
-
-Asking questions and seeking mentorship accelerated my growth far more than trying to figure everything out alone. 
-
- 
-
-Conclusion 
-
-Impostor syndrome may never completely disappear, but with self-awareness and the right strategies, you can stop it from holding you back. Remember, you’re not alone in feeling this way, and every developer—no matter how skilled—has moments of doubt. What matters is how you move forward. 
-
-Have you experienced impostor syndrome as a developer? How did you cope? Share your story in the comments—your experience might help someone else. 
-
-    </div>
+      <p>
+        Have you experienced impostor syndrome as a developer? How did you cope?
+        Share your story in the comments—your experience might help someone
+        else.
+      </p>
+    </article>
   );
 }
