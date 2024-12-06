@@ -6,8 +6,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import "./styles.css";
-import Header from "./routes/components/Header";
-import Footer from "./routes/components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
