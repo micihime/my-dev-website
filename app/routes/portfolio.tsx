@@ -59,7 +59,7 @@ export default function Index() {
         </p>
         <p>
           Find out more about it{" "}
-          <a href="https://fabulous-semifreddo-2a1ebd.netlify.app/">here</a>.
+          <a href="https://everwhisper-forest.netlify.app">here</a>.
         </p>
       </div>
       <div className="project">
@@ -75,7 +75,7 @@ export default function Index() {
         </p>
         <p>
           If you&apos;re interested, check out my blog{" "}
-          <a href="https://willowy-kataifi-da516b.netlify.app">here</a>.
+          <a href="https://luminify.netlify.app">here</a>.
         </p>
       </div>
     </div>
