@@ -3,15 +3,18 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 export const meta: MetaFunction = () => {
   return [
     {
-      title: "Understanding Client-Side Rendering (CSR) in Modern Web Apps | Mitchie's Dev Blog",
+      title:
+        "Understanding Client-Side Rendering (CSR) in Modern Web Apps | Mitchie's Dev Blog",
     },
     {
       name: "description",
-      content: "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React. Learn when and how to implement CSR in your web applications.",
+      content:
+        "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React. Learn when and how to implement CSR in your web applications.",
     },
     {
       name: "keywords",
-      content: "client-side rendering, CSR, React, JavaScript, web development, single-page applications, frontend development, web performance, SPA, dynamic websites",
+      content:
+        "client-side rendering, CSR, React, JavaScript, web development, single-page applications, frontend development, web performance, SPA, dynamic websites",
     },
     {
       property: "og:title",
@@ -19,7 +22,8 @@ export const meta: MetaFunction = () => {
     },
     {
       property: "og:description",
-      content: "Comprehensive guide to Client-Side Rendering in modern web applications, with React examples and best practices.",
+      content:
+        "Comprehensive guide to Client-Side Rendering in modern web applications, with React examples and best practices.",
     },
     {
       property: "og:type",
@@ -51,9 +55,27 @@ export const meta: MetaFunction = () => {
     },
     {
       name: "twitter:description",
-      content: "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React.",
-    }
+      content:
+        "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React.",
+    },
   ];
+};
+
+export const handle = {
+  structuredData: {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Understanding Client-Side Rendering (CSR) in Modern Web Apps",
+    author: {
+      "@type": "Person",
+      name: "Mitchie",
+    },
+    datePublished: "2024-01-20",
+    description:
+      "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React.",
+    articleSection: "Web Development",
+    keywords: "client-side rendering, CSR, React, JavaScript, web development",
+  },
 };
 
 export default function Index() {

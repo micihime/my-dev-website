@@ -61,6 +61,26 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+// Add this before your default export
+export const handle = {
+  scripts: () => ({
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      headline: "Web Rendering Patterns Comparison Guide",
+      description:
+        "Comprehensive comparison of modern web rendering patterns: SSR, SSG, ISR, and CSR.",
+      author: {
+        "@type": "Person",
+        name: "Mitchie",
+      },
+      datePublished: "2024-01-20",
+      articleSection: "Web Development",
+      keywords: "SSR, SSG, ISR, CSR, web rendering patterns",
+    },
+  }),
+};
+
 export default function Index() {
   return (
     <article className="content prose prose-lg max-w-none">
