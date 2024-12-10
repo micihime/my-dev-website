@@ -45,19 +45,6 @@ export const meta: MetaFunction = () => {
       property: "article:tag",
       content: "Web Development, Performance, Architecture",
     },
-    {
-      name: "twitter:card",
-      content: "summary_large_image",
-    },
-    {
-      name: "twitter:title",
-      content: "Web Rendering Patterns Comparison Guide",
-    },
-    {
-      name: "twitter:description",
-      content:
-        "Compare SSR, SSG, ISR, and CSR rendering patterns with detailed analysis of performance and use cases.",
-    },
   ];
 };
 

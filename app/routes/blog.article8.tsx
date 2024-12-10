@@ -46,20 +46,6 @@ export const meta: MetaFunction = () => {
       property: "article:tag",
       content: "ISR, Next.js, Web Development, Performance",
     },
-    {
-      name: "twitter:card",
-      content: "summary_large_image",
-    },
-    {
-      name: "twitter:title",
-      content:
-        "Understanding Incremental Static Regeneration (ISR) in Modern Web Apps",
-    },
-    {
-      name: "twitter:description",
-      content:
-        "Deep dive into ISR, including implementation strategies, use cases, and practical examples with Next.js.",
-    },
   ];
 };
 

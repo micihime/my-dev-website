@@ -45,19 +45,6 @@ export const meta: MetaFunction = () => {
       property: "article:tag",
       content: "Client-Side Rendering, React, Web Development, JavaScript",
     },
-    {
-      name: "twitter:card",
-      content: "summary_large_image",
-    },
-    {
-      name: "twitter:title",
-      content: "Understanding Client-Side Rendering (CSR) in Modern Web Apps",
-    },
-    {
-      name: "twitter:description",
-      content:
-        "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React.",
-    },
   ];
 };
 

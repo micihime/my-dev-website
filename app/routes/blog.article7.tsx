@@ -46,20 +46,6 @@ export const meta: MetaFunction = () => {
       property: "article:tag",
       content: "Static Rendering, Web Development, Performance, SSG",
     },
-    // Add Twitter Card metadata
-    {
-      name: "twitter:card",
-      content: "summary_large_image",
-    },
-    {
-      name: "twitter:title",
-      content: "Static-Rendered Applications in Modern Web Development",
-    },
-    {
-      name: "twitter:description",
-      content:
-        "Learn about static-rendered applications, their benefits, and implementation in modern web development.",
-    },
   ];
 };
 
