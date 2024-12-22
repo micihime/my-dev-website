@@ -35,21 +35,22 @@ export default function Index() {
       </div>
       <div className="content">
         <p>
-          Hi, I&apos;m Mitchie, a web developer with a passion for building
-          efficient and creative solutions.
+          Hi, I'm Mitchie, a web developer with a passion for building efficient and creative solutions.
         </p>
         <p>
-          I started my career focusing on backend development, where I refined
-          my skills in building scalable applications with .NET and C#. I
-          enjoyed the logic, structure, and problem-solving involved in backend
-          work, but I always wanted to see the direct impact my code could have
-          on users. This led me to frontend development, and now with React,
-          I&apos;m creating interactive, dynamic web applications that bring
-          ideas to life in a more tangible way.
+          My journey began in backend development, where I built scalable applications using .NET and C#. I loved the precision of writing logic, solving intricate problems, and creating systems that worked seamlessly behind the scenes. It gave me a strong foundation in understanding how applications function.
         </p>
         <p>
-          My ultimate goal is to build applications that are not only functional
-          but also delightful to use.
+          But something was missing. While I enjoyed crafting solid backends, I longed to see the immediate impact my work had on users. I wanted to bridge the gap between the invisible logic of code and the interactive world users see and feel.
+        </p>
+        <p>
+          This curiosity led me to frontend development, and I found a new creative outlet in tools like React. Building dynamic and interactive interfaces gave me a sense of fulfillment. I could now bring ideas to life—not just functionally, but in ways that connect with people directly.
+        </p>
+        <p>
+          Today, I focus on creating web applications that are both functional and delightful to use. My journey from backend structure to frontend creativity has taught me to blend the best of both worlds: solid architecture and engaging user experiences.
+        </p>
+        <p>
+          This is just the beginning—I’m excited to see where the next steps in my journey will take me.
         </p>
       </div>
     </>
