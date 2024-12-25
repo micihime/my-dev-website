@@ -48,100 +48,80 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-// Add this before your default export
-export const handle = {
-  scripts: () => ({
-    jsonLd: {
-      "@context": "https://schema.org",
-      "@type": "TechArticle",
-      headline: "Web Rendering Patterns Comparison Guide",
-      description:
-        "Comprehensive comparison of modern web rendering patterns: SSR, SSG, ISR, and CSR.",
-      author: {
-        "@type": "Person",
-        name: "Mitchie",
-      },
-      datePublished: "2024-01-20",
-      articleSection: "Web Development",
-      keywords: "SSR, SSG, ISR, CSR, web rendering patterns",
-    },
-  }),
-};
-
 export default function Index() {
   return (
-    <article className="content prose prose-lg max-w-none">
-      <h1 className="text-3xl font-bold mb-6">
+    <article>
+      <h1>
         Rendering Patterns in Modern Web Development
       </h1>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Comparison Table</h2>
-      <div className="overflow-x-auto">
-        <table className="min-w-full border-collapse border border-gray-300">
+      <h2>Comparison Table</h2>
+      <div>
+        <table>
           <thead>
             <tr>
-              <th className="border border-gray-300 p-2">Feature</th>
-              <th className="border border-gray-300 p-2">SSR</th>
-              <th className="border border-gray-300 p-2">SSG</th>
-              <th className="border border-gray-300 p-2">ISR</th>
-              <th className="border border-gray-300 p-2">CSR</th>
+              <th>Feature</th>
+              <th>SSR</th>
+              <th>SSG</th>
+              <th>ISR</th>
+              <th>CSR</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-300 p-2">HTML Generation</td>
-              <td className="border border-gray-300 p-2">On user request</td>
-              <td className="border border-gray-300 p-2">At build time</td>
-              <td className="border border-gray-300 p-2">
+              <td>HTML Generation</td>
+              <td>On user request</td>
+              <td>At build time</td>
+              <td>
                 At build time + updates
               </td>
-              <td className="border border-gray-300 p-2">In the browser</td>
+              <td>In the browser</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 p-2">Content Freshness</td>
-              <td className="border border-gray-300 p-2">Always up-to-date</td>
-              <td className="border border-gray-300 p-2">
+              <td>Content Freshness</td>
+              <td>Always up-to-date</td>
+              <td>
                 Stale until rebuild
               </td>
-              <td className="border border-gray-300 p-2">
+              <td>
                 Stale until revalidate
               </td>
-              <td className="border border-gray-300 p-2">Always up-to-date</td>
+              <td>Always up-to-date</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 p-2">Performance</td>
-              <td className="border border-gray-300 p-2">
+              <td>Performance</td>
+              <td>
                 Slower (server computes)
               </td>
-              <td className="border border-gray-300 p-2">
+              <td>
                 Fast (prebuilt HTML)
               </td>
-              <td className="border border-gray-300 p-2">
+              <td>
                 Fast + occasional updates
               </td>
-              <td className="border border-gray-300 p-2">
+              <td>
                 Slower (browser computes)
               </td>
             </tr>
             <tr>
-              <td className="border border-gray-300 p-2">Use Cases</td>
-              <td className="border border-gray-300 p-2">
+              <td>Use Cases</td>
+              <td>
                 Dynamic, personalized pages
               </td>
-              <td className="border border-gray-300 p-2">
+              <td>
                 Static, rarely-changing pages
               </td>
-              <td className="border border-gray-300 p-2">
+              <td>
                 Semi-static, frequently updated
               </td>
-              <td className="border border-gray-300 p-2">Interactive apps</td>
+              <td>Interactive apps</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Key Takeaways</h2>
-      <ul className="list-disc pl-6 space-y-2">
+      <h2>Key Takeaways</h2>
+      <ul>
         <li>Use SSR for dynamic, real-time content (e.g., user profiles).</li>
         <li>
           Use SSG for static content that doesn&apos;t change often (e.g.,
