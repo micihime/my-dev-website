@@ -50,11 +50,6 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <>
-      <header>
-        <time dateTime="2024-01-15">January 15, 2024</time>
-        <span className="author">By Mitchie</span>
-      </header>
       <article className="content">
         <h1>
           Server-Rendered HTML in Modern Web Development: A Comprehensive Guide
@@ -154,29 +149,5 @@ export default function Index() {
           </li>
         </ul>
       </article>
-      <footer>
-        <div className="tags">
-          <span className="tag">Server-Side Rendering</span>
-          <span className="tag">Web Development</span>
-          <span className="tag">Performance</span>
-        </div>
-      </footer>
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "TechArticle",
-          headline:
-            "Server-Rendered HTML in Modern Web Development: A Comprehensive Guide",
-          author: {
-            "@type": "Person",
-            name: "Mitchie",
-          },
-          datePublished: "2024-01-15",
-          description:
-            "Learn about server-rendered HTML in modern web development, including its benefits, implementation, and best practices.",
-          articleSection: "Web Development",
-        })}
-      </script>
-    </>
   );
 }

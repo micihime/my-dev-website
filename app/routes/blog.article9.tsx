@@ -50,7 +50,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <article>
+    <article className="content">
       <h1>
         Rendering Patterns in Modern Web Development
       </h1>
