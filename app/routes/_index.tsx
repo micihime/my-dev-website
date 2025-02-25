@@ -30,28 +30,25 @@ export default function Index() {
     <>
       <div className="about-me">
         <img src="/img/profile.jpg" alt="my profile" width="150" height="150" />
-        <h1>From Code to Creativity:</h1>
-        <h2>My Journey in Web Development</h2>
+        <h1>Miroslava Hreško</h1>
+        {/* <h2>Crafting Innovative Web Experiences</h2> */}
       </div>
       <div className="content">
         <p>
-          Hi, I'm Mitchie, a web developer with a passion for building efficient and creative solutions.
+          Hi, I&apos;m Mitchie, I’m a full-stack developer specializing in
+          C#/.NET on the backend and React on the frontend, building scalable
+          and user-friendly web applications. I love building intuitive,
+          user-friendly web applications and exploring the world of UI/UX
+          design. With a passion for creativity and problem-solving, I strive to
+          create digital experiences that are both functional and visually
+          engaging.
         </p>
         <p>
-          My journey began in backend development, where I built scalable applications using .NET and C#. I loved the precision of writing logic, solving intricate problems, and creating systems that worked seamlessly behind the scenes. It gave me a strong foundation in understanding how applications function.
+          Beyond coding, I love exploring new places, experimenting in baking,
+          and staying active through dance, running, and hiking. I try to bring
+          curiosity and enthusiasm to everything I do.
         </p>
-        <p>
-          But something was missing. While I enjoyed crafting solid backends, I longed to see the immediate impact my work had on users. I wanted to bridge the gap between the invisible logic of code and the interactive world users see and feel.
-        </p>
-        <p>
-          This curiosity led me to frontend development, and I found a new creative outlet in tools like React. Building dynamic and interactive interfaces gave me a sense of fulfillment. I could now bring ideas to life—not just functionally, but in ways that connect with people directly.
-        </p>
-        <p>
-          Today, I focus on creating web applications that are both functional and delightful to use. My journey from backend structure to frontend creativity has taught me to blend the best of both worlds: solid architecture and engaging user experiences.
-        </p>
-        <p>
-          This is just the beginning—I’m excited to see where the next steps in my journey will take me.
-        </p>
+        <p>Let’s connect and build something great together!</p>
       </div>
     </>
   );

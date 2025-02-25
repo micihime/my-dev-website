@@ -21,10 +21,9 @@ export default function Index() {
     <div className="content">
       <p>
         I love web development because it allows me to combine my logical side
-        with my creative side. There&apos;s something incredibly satisfying
-        about solving a complex technical challenge and seeing that solution
-        come to life in a way that people can interact with. It&apos;s a blend
-        of art and science that keeps me inspired every day.
+        with my creative side. Solving technical challenges and seeing the
+        results come to life in an interactive way is very rewarding. It’s a mix
+        of problem-solving and design that keeps me engaged.
       </p>
       <h3>Technical Stack</h3>
       <div className="values-list">
@@ -38,11 +37,20 @@ export default function Index() {
             <p>React, Remix, TypeScript / JavaScript, HTML, CSS</p>
           </li>
           <li>
-            <h3>Tools:</h3>
-            <p>Git, Visual Studio, Visual Studio Code, DevOps tools</p>
+            <h3>Soft skills:</h3>
+            <p>Problem-solving, adaptability, communication, teamwork</p>
           </li>
         </ul>
       </div>
+      <p>
+        With a background in both frontend and backend development, I enjoy
+        creating intuitive and efficient web applications. My journey started in
+        .NET and C#, but my passion for user experience led me to frontend
+        development with React. I value clean code, maintainable architecture,
+        and seamless user interactions. Beyond technical skills, my experience
+        in Toastmasters has strengthened my ability to communicate complex ideas
+        clearly, making me an effective collaborator in any team.
+      </p>
     </div>
   );
 }
