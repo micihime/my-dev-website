@@ -31,7 +31,7 @@ export default function Index() {
       <div className="about-me">
         <img src="/img/profile.jpg" alt="my profile" width="150" height="150" />
         <h1>Miroslava Hreško</h1>
-        <h2>Crafting Innovative Web Experiences</h2>
+        {/* <h2>Crafting Innovative Web Experiences</h2> */}
       </div>
       <div className="content">
         <p>
