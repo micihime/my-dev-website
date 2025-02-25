@@ -53,7 +53,7 @@ export default function Index() {
     <article className="content prose prose-lg max-w-none">
       The JavaScript reduce() function is a powerful array method that allows you to reduce an array to a single value. It does this by applying a callback function to each element of the array (from left to right) while accumulating a result.
 
-Key Features of reduce()
+{/* Key Features of reduce()
 Reduces array to a single value: The return value could be a number, string, object, or even another array, depending on the logic.
 Accumulates results: It keeps track of an "accumulator" that aggregates the results from processing each element.
 Highly versatile: It can be used for operations like summing numbers, flattening arrays, or building objects.
@@ -121,8 +121,7 @@ console.log(grouped);
   admin: [{ id: 1, group: 'admin' }, { id: 3, group: 'admin' }],
   user: [{ id: 2, group: 'user' }],
   guest: [{ id: 4, group: 'guest' }]
-}
-*/
+} //*
 6. Calculate a Running Total
 javascript
 Copy code
@@ -156,7 +155,7 @@ map(): Transforms each element and returns an array of the same length.
 filter(): Filters elements based on a condition and returns a smaller array.
 reduce(): Combines all elements into a single value.
 Conclusion
-The reduce() function is one of the most versatile tools in JavaScript for array manipulation. It enables you to perform complex transformations and aggregations with a single, concise function. Use it when you need to combine or summarize data in arrays.
+The reduce() function is one of the most versatile tools in JavaScript for array manipulation. It enables you to perform complex transformations and aggregations with a single, concise function. Use it when you need to combine or summarize data in arrays. */}
     </article>
   );
 }

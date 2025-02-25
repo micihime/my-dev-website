@@ -53,7 +53,7 @@ export default function Index() {
     <article>
       The JavaScript map() function is a built-in method for arrays. It is used to create a new array by applying a provided function to each element of the original array. It does not modify the original array but returns a new one with the transformed elements.
 
-Key Features of map()
+{/* Key Features of map()
 Transforms elements: It applies a callback function to every element in the array and creates a new array with the results.
 Non-destructive: It does not change the original array.
 Returns a new array: The size of the new array is the same as the original.
@@ -122,7 +122,7 @@ const results = nums.map(num => num * 2); // Correct
 Using map() when no transformation is needed: Use forEach for side-effects like logging or modifying external variables instead.
 
 Conclusion
-The map() function is a powerful and concise way to transform data in arrays. Use it when you need to produce a new array based on the original array's elements.
+The map() function is a powerful and concise way to transform data in arrays. Use it when you need to produce a new array based on the original array's elements. */}
     </article>
   );
 }

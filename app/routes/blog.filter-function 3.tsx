@@ -52,7 +52,7 @@ export default function Index() {
   return (
     <article className="content prose prose-lg max-w-none">
       The JavaScript filter() function is a built-in method for arrays that is used to create a new array containing only the elements that satisfy a specified condition. It does not modify the original array but returns a new array with the filtered elements.
-
+{/* 
 Key Features of filter()
 Selective filtering: It applies a callback function to every element of the array and includes only those elements for which the callback returns true.
 Non-destructive: The original array remains unchanged.
@@ -131,7 +131,7 @@ Output:
 filter() can return a smaller array than the original.
 map() always returns an array of the same length.
 Conclusion
-The filter() function is a versatile and concise way to extract data from arrays based on conditions. Use it whenever you need to isolate elements that meet specific criteria, leaving behind everything else.
+The filter() function is a versatile and concise way to extract data from arrays based on conditions. Use it whenever you need to isolate elements that meet specific criteria, leaving behind everything else.*/}
     </article>
   );
 }
