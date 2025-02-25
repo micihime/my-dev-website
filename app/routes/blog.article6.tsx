@@ -48,23 +48,6 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export const handle = {
-  structuredData: {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "Understanding Client-Side Rendering (CSR) in Modern Web Apps",
-    author: {
-      "@type": "Person",
-      name: "Mitchie",
-    },
-    datePublished: "2024-01-20",
-    description:
-      "Deep dive into Client-Side Rendering (CSR), including how it works, best use cases, and practical examples with React.",
-    articleSection: "Web Development",
-    keywords: "client-side rendering, CSR, React, JavaScript, web development",
-  },
-};
-
 export default function Index() {
   return (
     <article className="content">

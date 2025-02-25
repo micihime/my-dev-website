@@ -44,9 +44,13 @@ export default function Index() {
           engaging.
         </p>
         <p>
+          Today, I focus on creating web applications that are both functional and delightful to use. My journey from backend structure to frontend creativity has taught me to blend the best of both worlds: solid architecture and engaging user experiences.
           Beyond coding, I love exploring new places, experimenting in baking,
           and staying active through dance, running, and hiking. I try to bring
           curiosity and enthusiasm to everything I do.
+        </p>
+        <p>
+          This is just the beginning—I’m excited to see where the next steps in my journey will take me.
         </p>
         <p>Let’s connect and build something great together!</p>
       </div>
