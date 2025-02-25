@@ -4,5 +4,4 @@ Welcome to the repository for my personal developer portfolio website! This proj
 ✨ Features
 About Me: Learn more about my background, skills, and career journey.
 Portfolio: A collection of my projects, highlighting technologies and design principles.
-Blog: Articles and insights about my learning journey, frontend development, and creativity.
 Contact: A way to connect with me via email or social media.
