@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
+import Skill from "~/components/Skill";
 
 export const meta: MetaFunction = () => {
   return [
@@ -22,24 +23,24 @@ export default function Index() {
       <p>
         I love web development because it allows me to combine my logical side
         with my creative side. Solving technical challenges and seeing the
-        results come to life in an interactive way is very rewarding. It’s a mix
-        of problem-solving and design that keeps me engaged.
+        results come to life in an interactive way is very rewarding. It&apos;s
+        a mix of problem-solving and design that keeps me engaged.
       </p>
       <h3>Technical Stack</h3>
       <div className="values-list">
         <ul className="flexi">
-          <li>
-            <h3>Backend:</h3>
-            <p>.NET, C#, SQL, TypeScript / JavaScript</p>
-          </li>
-          <li>
-            <h3>Frontend:</h3>
-            <p>React, Remix, TypeScript / JavaScript, HTML, CSS</p>
-          </li>
-          <li>
-            <h3>Soft skills:</h3>
-            <p>Problem-solving, adaptability, communication, teamwork</p>
-          </li>
+          <Skill
+            title="Backend"
+            details=".NET, C#, SQL, TypeScript / JavaScript"
+          />
+          <Skill
+            title="Frontend"
+            details="React, Remix, TypeScript / JavaScript, HTML, CSS"
+          />
+          <Skill
+            title="Soft skills"
+            details="Problem-solving, adaptability, communication, teamwork"
+          />
         </ul>
       </div>
       <p>
