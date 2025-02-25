@@ -30,27 +30,25 @@ export default function Index() {
     <>
       <div className="about-me">
         <img src="/img/profile.jpg" alt="my profile" width="150" height="150" />
-        <h1>From Code to Creativity:</h1>
-        <h2>My Journey in Web Development</h2>
+        <h1>Miroslava Hreško</h1>
+        <h2>Crafting Innovative Web Experiences</h2>
       </div>
       <div className="content">
         <p>
-          Hi, I&apos;m Mitchie, a web developer with a passion for building
-          efficient and creative solutions.
+          Hi, I&apos;m Mitchie, I’m a full-stack developer specializing in
+          C#/.NET on the backend and React on the frontend, building scalable
+          and user-friendly web applications. I love building intuitive,
+          user-friendly web applications and exploring the world of UI/UX
+          design. With a passion for creativity and problem-solving, I strive to
+          create digital experiences that are both functional and visually
+          engaging.
         </p>
         <p>
-          I started my career focusing on backend development, where I refined
-          my skills in building scalable applications with .NET and C#. I
-          enjoyed the logic, structure, and problem-solving involved in backend
-          work, but I always wanted to see the direct impact my code could have
-          on users. This led me to frontend development, and now with React,
-          I&apos;m creating interactive, dynamic web applications that bring
-          ideas to life in a more tangible way.
+          Beyond coding, I love exploring new places, experimenting in baking,
+          and staying active through dance, running, and hiking. I try to bring
+          curiosity and enthusiasm to everything I do.
         </p>
-        <p>
-          My ultimate goal is to build applications that are not only functional
-          but also delightful to use.
-        </p>
+        <p>Let’s connect and build something great together!</p>
       </div>
     </>
   );
