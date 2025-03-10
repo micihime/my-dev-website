@@ -20,7 +20,7 @@ export default function Index() {
           <IconMail size={18} />
         </a>
         <a
-          href="https://www.linkedin.com/in/miroslava-hre%C5%A1kov%C3%A1-bbb5939a/"
+          href="https://www.linkedin.com/in/miroslava-hre%C5%A1ko-bbb5939a/"
           target="_blank"
           rel="noopener noreferrer"
         >
