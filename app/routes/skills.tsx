@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
-import Skill from "~/components/Skill";
+import SkillList from "~/components/SkillList";
 
 export const meta: MetaFunction = () => {
   return [
@@ -27,22 +27,7 @@ export default function Index() {
         a mix of problem-solving and design that keeps me engaged.
       </p>
       <h3>Technical Stack</h3>
-      <div className="values-list">
-        <ul className="flexi">
-          <Skill
-            title="Backend"
-            details=".NET, C#, SQL, TypeScript / JavaScript"
-          />
-          <Skill
-            title="Frontend"
-            details="React, Remix, TypeScript / JavaScript, HTML, CSS"
-          />
-          <Skill
-            title="Soft skills"
-            details="Problem-solving, adaptability, communication, teamwork"
-          />
-        </ul>
-      </div>
+      <SkillList />
       <p>
         With a background in both frontend and backend development, I enjoy
         creating intuitive and efficient web applications. My journey started in
