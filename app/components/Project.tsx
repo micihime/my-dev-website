@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Project.module.css";
 
 interface ProjectProps {
   title: string;
@@ -8,24 +9,30 @@ interface ProjectProps {
     text: string;
     additionalText?: string;
   };
-  linkClassName?: string;
+  sourceCodeUrl: string;
 }
 
-export default function Project({ title, paragraphs, link, linkClassName }: ProjectProps) {
+export default function Project({
+  title,
+  paragraphs,
+  link,
+  sourceCodeUrl,
+}: ProjectProps) {
   return (
-    <div className="project">
+    <div className={styles.project}>
       <h2>{title}</h2>
       {paragraphs.map((paragraph, index) => (
-        <p key={index} className={index === paragraphs.length - 1 && link && linkClassName ? linkClassName : undefined}>
-          {paragraph}
-          {index === paragraphs.length - 1 && link && (
-            <>
-              <a href={link.url}>{link.text}</a>
-              {link.additionalText && ` ${link.additionalText}`}
-            </>
-          )}
-        </p>
+        <p key={index}>{paragraph}</p>
       ))}
+      <p>
+        {link && (
+          <>
+            <a href={link.url}>{link.text}</a>
+            {link.additionalText && ` ${link.additionalText} `}
+          </>
+        )}
+        <a href={sourceCodeUrl}>This</a> is the repository.
+      </p>
     </div>
   );
 }
