@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:900");
 
-/*
-Colors:
-main: #d27aaa
-accent: #273582
-white: #f5f5f5
-*/
+:root {
+  /* Colors */
+  --color-main: #d27aaa;
+  --color-accent: #273582;
+  --color-white: #f5f5f5;
+}
 
 * {
   box-sizing: border-box;
@@ -18,14 +18,14 @@ body {
   margin: 0;
   font-size: 18px;
   font-family: Roboto, sans-serif;
-  background-color: #f5f5f5;
+  background-color: var(--color-white);
   padding-bottom: 60px;
 }
 
 h1,
 h2,
 h3 {
-  color: #273582;
+  color: var(--color-accent);
   text-align: center;
   font-family: Raleway, sans-serif;
 }
@@ -47,24 +47,24 @@ p {
 }
 
 a {
-  color: #273582;
+  color: var(--color-accent);
 }
 
 a:hover {
-  color: #d27aaa;
+  color: var(--color-main);
 }
 
 .about-me {
   padding: 20px;
-  background-color: #d27aaa;
+  background-color: var(--color-main);
   background-image: linear-gradient(#1a2355be, #d29cbab0);
-  color: #f5f5f5;
+  color: var(--color-white);
   text-align: center;
 }
 
 .about-me h1,
 h2 {
-  color: #f5f5f5;
+  color: var(--color-white);
 }
 
 .about-me img {
