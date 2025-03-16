@@ -6,6 +6,9 @@
   --color-main: #d27aaa;
   --color-accent: #273582;
   --color-white: #f5f5f5;
+  /* --color-gradient-blue: #1a2355be; */
+  /* --color-gradient-pink: #d29cbab0; */
+  --main-gradient: linear-gradient(#1a2355be, #d29cbab0);
 }
 
 * {
@@ -57,7 +60,7 @@ a:hover {
 .about-me {
   padding: 20px;
   background-color: var(--color-main);
-  background-image: linear-gradient(#1a2355be, #d29cbab0);
+  background-image: var(--main-gradient);
   color: var(--color-white);
   text-align: center;
 }
