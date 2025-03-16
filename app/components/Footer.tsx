@@ -6,7 +6,7 @@ import {
 } from "@tabler/icons-react";
 
 export default function Index() {
-  const handleEmailClick = (e) => {
+  const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const username = "mitchie.code";
     const domain = "gmail.com";
