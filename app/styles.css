@@ -9,6 +9,21 @@
   /* --color-gradient-blue: #1a2355be; */
   /* --color-gradient-pink: #d29cbab0; */
   --main-gradient: linear-gradient(#1a2355be, #d29cbab0);
+
+  /* Font sizes */
+  --font-size-base: 18px;
+  --font-size-h3: 24px;
+  --font-size-h2: 36px;
+  --font-size-h1: 48px;
+
+  /* Spacing */
+  --spacing-standard: 20px;
+  --spacing-large: 24px;
+
+  /* Other */
+  --border-radius-circle: 50%;
+  --footer-height: 60px;
+  --max-content-width: 1200px;
 }
 
 * {
@@ -19,10 +34,10 @@ body {
   min-height: 100vh;
   position: relative;
   margin: 0;
-  font-size: 18px;
+  font-size: var(--font-size-base);
   font-family: Roboto, sans-serif;
   background-color: var(--color-white);
-  padding-bottom: 60px;
+  padding-bottom: var(--footer-height);
 }
 
 h1,
@@ -34,19 +49,19 @@ h3 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: var(--font-size-h1);
 }
 
 h2 {
-  font-size: 36px;
+  font-size: var(--font-size-h2);
 }
 
 h3 {
-  font-size: 24px;
+  font-size: var(--font-size-h3);
 }
 
 p {
-  margin: 20px;
+  margin: var(--spacing-standard);
 }
 
 a {
@@ -58,7 +73,7 @@ a:hover {
 }
 
 .about-me {
-  padding: 20px;
+  padding: var(--spacing-standard);
   background-color: var(--color-main);
   background-image: var(--main-gradient);
   color: var(--color-white);
@@ -71,7 +86,7 @@ h2 {
 }
 
 .about-me img {
-  border-radius: 50%;
+  border-radius: var(--border-radius-circle);
 }
 
 .smaller p {
@@ -83,16 +98,16 @@ h2 {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: var(--max-content-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 24px;
+  padding: var(--spacing-large);
   justify-content: space-between;
 }
 
 .contact img {
   max-width: 50%;
-  margin-left: 24px;
+  margin-left: var(--spacing-standard);
 }
 
 .anchor {
