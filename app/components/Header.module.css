@@ -1,12 +1,12 @@
 .header {
   height: 90px;
-  background-color: #f5f5f5;
+  background-color: var(--color-white);
   position: sticky;
   top: 0;
 }
 
 .logo {
-  color: #273582;
+  color: var(--color-accent);
   font-size: 40px;
   font-family: "Raleway", cursive;
 }
@@ -59,7 +59,7 @@
 
   .navigation ul {
     display: none;
-    background-color: #f5f5f5;
+    background-color: var(--color-white);
     height: auto;
     width: 100%;
     position: fixed;

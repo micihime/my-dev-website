@@ -1,5 +1,5 @@
 .values-list {
-  background-color: #f5f5f5;
+  background-color: var(--color-white);
   text-align: center;
 }
 
