@@ -11,6 +11,7 @@ interface ProjectProps {
   };
   sourceCodeUrl: string;
   imageUrl?: string;
+  technologies?: string[];
 }
 
 export default function Project({
@@ -19,6 +20,7 @@ export default function Project({
   link,
   sourceCodeUrl,
   imageUrl,
+  technologies,
 }: ProjectProps) {
   return (
     <div className={styles.project}>
@@ -32,6 +34,15 @@ export default function Project({
         {paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
+        {technologies && (
+          <div className={styles.technologies}>
+            {technologies.map((tech, index) => (
+              <span key={index} className={styles.techTag}>
+                {tech}
+              </span>
+            ))}
+          </div>
+        )}
         <div className={styles.projectLinks}>
           {link && (
             <a href={link.url} className={styles.demoLink}>

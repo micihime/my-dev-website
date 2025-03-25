@@ -34,6 +34,8 @@ export default function Index() {
             "about Randy today and start making the most of your moments!",
         }}
         sourceCodeUrl="https://github.com/micihime/RandomReminderApp"
+        // imageUrl="/img/projects/randy-screenshot.jpg"
+        // technologies={[".NET MAUI", "C#"]}
       />
 
       <Project
@@ -48,6 +50,8 @@ export default function Index() {
           additionalText: "you can find out all about it.",
         }}
         sourceCodeUrl="https://github.com/micihime/my-book"
+        // imageUrl="/img/projects/adventure-book.jpg"
+        // technologies={["React", "Typescript", "CSS Animations"]}
       />
 
       <Project
@@ -61,6 +65,8 @@ export default function Index() {
           additionalText: "if you're interested.",
         }}
         sourceCodeUrl="https://github.com/micihime/my-art-website"
+        // imageUrl="/img/projects/art-blog.jpg"
+        // technologies={["React", "Typescript", "Netlify CMS"]}
       />
     </div>
   );
