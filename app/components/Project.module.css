@@ -6,11 +6,9 @@
 
 .project {
   padding: var(--spacing-large);
-  background-image: var(--main-gradient);
   border-radius: 8px;
 }
 
 .project p {
   font-size: var(--font-size-base);
-  color: var(--color-white);
 }
