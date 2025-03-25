@@ -11,8 +11,8 @@
 
 .values-list li {
   width: 33.333%;
-  padding: 16px;
-  margin: 0 16px;
+  padding: var(--spacing-standard);
+  margin: 0 var(--spacing-standard);
   border: 2px dotted #d3d3d3;
 }
 

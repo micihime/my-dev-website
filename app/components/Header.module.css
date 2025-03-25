@@ -7,7 +7,7 @@
 
 .logo {
   color: var(--color-accent);
-  font-size: 40px;
+  font-size: calc(var(--font-size-h2) + 4px);
   font-family: "Raleway", cursive;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .navigation {
-  padding-top: 20px;
+  padding-top: var(--spacing-standard);
   width: auto;
   display: flex;
   justify-content: flex-end;
@@ -37,7 +37,7 @@
 }
 
 .navigation ul li {
-  padding-right: 20px;
+  padding-right: var(--spacing-standard);
 }
 
 .navigation ul li a {
@@ -54,7 +54,7 @@
   }
 
   .logo {
-    margin-bottom: 15px;
+    margin-bottom: calc(var(--spacing-standard) - 5px);
   }
 
   .navigation ul {
@@ -63,14 +63,14 @@
     height: auto;
     width: 100%;
     position: fixed;
-    padding-top: 20px;
+    padding-top: var(--spacing-standard);
     right: 0;
     text-align: center;
     padding-left: 0;
   }
 
   .navigation ul li {
-    padding: 12px 0;
+    padding: calc(var(--spacing-standard) - 8px) 0;
   }
 
   .navigation ul li a {
@@ -79,7 +79,7 @@
   }
 
   .navigationOpen {
-    margin-top: 20px;
+    margin-top: var(--spacing-standard);
     width: 100%;
   }
 
