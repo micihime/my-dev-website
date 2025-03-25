@@ -32,7 +32,6 @@
 }
 
 .projectLinks a {
-  color: var(--color-white);
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;

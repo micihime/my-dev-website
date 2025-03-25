@@ -10,6 +10,7 @@ interface ProjectProps {
     additionalText?: string;
   };
   sourceCodeUrl: string;
+  imageUrl?: string;
 }
 
 export default function Project({
@@ -17,22 +18,32 @@ export default function Project({
   paragraphs,
   link,
   sourceCodeUrl,
+  imageUrl,
 }: ProjectProps) {
   return (
     <div className={styles.project}>
-      <h2>{title}</h2>
-      {paragraphs.map((paragraph, index) => (
-        <p key={index}>{paragraph}</p>
-      ))}
-      <p>
-        {link && (
-          <>
-            <a href={link.url}>{link.text}</a>
-            {link.additionalText && ` ${link.additionalText} `}
-          </>
-        )}
-        <a href={sourceCodeUrl}>This</a> is the repository.
-      </p>
+      {imageUrl && (
+        <div className={styles.projectImage}>
+          <img src={imageUrl} alt={title} />
+        </div>
+      )}
+      <div className={styles.projectContent}>
+        <h2>{title}</h2>
+        {paragraphs.map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))}
+        <div className={styles.projectLinks}>
+          {link && (
+            <a href={link.url} className={styles.demoLink}>
+              {link.text}
+              {link.additionalText && ` ${link.additionalText}`}
+            </a>
+          )}
+          <a href={sourceCodeUrl} className={styles.repoLink}>
+            View Source Code
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
