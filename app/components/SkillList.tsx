@@ -8,7 +8,7 @@ export default function SkillList() {
       <ul className={styles.flexi}>
         <Skill
           title="Backend"
-          details=".NET, C#, SQL, TypeScript / JavaScript"
+          details="Designing and implementing scalable REST APIs"
           icon={<IconServer size={24} />}
           skills={[
             { name: ".NET / C#", level: 90 },
@@ -19,7 +19,7 @@ export default function SkillList() {
         />
         <Skill
           title="Frontend"
-          details="React, Remix, TypeScript / JavaScript, HTML, CSS"
+          details="Crafting responsive and interactive web interfaces"
           icon={<IconCode size={24} />}
           skills={[
             { name: "React", level: 85 },
@@ -30,7 +30,7 @@ export default function SkillList() {
         />
         <Skill
           title="Soft skills"
-          details="Problem-solving, adaptability, communication, teamwork"
+          details="Collaborative team player with strong problem-solving"
           icon={<IconUsers size={24} />}
           skills={[
             { name: "Problem-solving", level: 95 },
