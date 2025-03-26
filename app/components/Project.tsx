@@ -3,7 +3,7 @@ import styles from "./Project.module.css";
 
 interface ProjectProps {
   title: string;
-  paragraphs: React.ReactNode[];
+  children: React.ReactNode;
   link?: {
     url: string;
     text: string;
@@ -16,7 +16,7 @@ interface ProjectProps {
 
 export default function Project({
   title,
-  paragraphs,
+  children,
   link,
   sourceCodeUrl,
   imageUrl,
@@ -31,9 +31,7 @@ export default function Project({
       )}
       <div className={styles.projectContent}>
         <h2>{title}</h2>
-        {paragraphs.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
+        <div className={styles.projectDescription}>{children}</div>
         {technologies && (
           <div className={styles.technologies}>
             {technologies.map((tech, index) => (
