@@ -35,7 +35,7 @@ export default function Index() {
       </div>
       <div className="content">
         <p>
-          Hi, I&apos;m Mitchie, I’m a full-stack developer specializing in
+          Hi, I&apos;m Mitchie, I&apos;m a full-stack developer specializing in
           C#/.NET on the backend and React on the frontend, building scalable
           and user-friendly web applications. I love building intuitive,
           user-friendly web applications and exploring the world of UI/UX
@@ -48,7 +48,7 @@ export default function Index() {
           and staying active through dance, running, and hiking. I try to bring
           curiosity and enthusiasm to everything I do.
         </p>
-        <p>Let’s connect and build something great together!</p>
+        <p>Let&apos;s connect and build something great together!</p>
       </div>
     </>
   );

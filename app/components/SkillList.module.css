@@ -1,0 +1,32 @@
+.values-list {
+  background-color: var(--color-white);
+  text-align: center;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.values-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flexi {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  align-items: stretch;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .flexi {
+    flex-direction: column;
+  }
+
+  .flexi li {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}

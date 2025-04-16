@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
+import SkillList from "~/components/SkillList";
 
 export const meta: MetaFunction = () => {
   return [
@@ -19,38 +20,27 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="content">
-      <p>
-        I love web development because it allows me to combine my logical side
-        with my creative side. Solving technical challenges and seeing the
-        results come to life in an interactive way is very rewarding. It’s a mix
-        of problem-solving and design that keeps me engaged.
-      </p>
-      <h3>Technical Stack</h3>
-      <div className="values-list">
-        <ul className="flexi">
-          <li>
-            <h3>Backend:</h3>
-            <p>.NET, C#, SQL, TypeScript / JavaScript</p>
-          </li>
-          <li>
-            <h3>Frontend:</h3>
-            <p>React, Remix, TypeScript / JavaScript, HTML, CSS</p>
-          </li>
-          <li>
-            <h3>Soft skills:</h3>
-            <p>Problem-solving, adaptability, communication, teamwork</p>
-          </li>
-        </ul>
-      </div>
+      <h1>Skills</h1>
       <p>
         With a background in both frontend and backend development, I enjoy
-        creating intuitive and efficient web applications. My journey started in
-        .NET and C#, but my passion for user experience led me to frontend
-        development with React. I value clean code, maintainable architecture,
-        and seamless user interactions. Beyond technical skills, my experience
-        in Toastmasters has strengthened my ability to communicate complex ideas
-        clearly, making me an effective collaborator in any team.
+        building intuitive and efficient web applications. My journey began with
+        .NET and C#, but my passion for user experience led me to focus on
+        frontend development with React. Beyond technical skills, my experience
+        in Toastmasters has strengthened my ability to communicate clearly,
+        making me an effective collaborator in any team.
       </p>
+      <SkillList />
+      {/* <p>
+        Beyond technical skills, my experience in Toastmasters has strengthened
+        my ability to communicate complex ideas clearly, making me an effective
+        collaborator in any team.
+      </p> */}
+      {/* <p>
+        I love web development because it allows me to combine my logical side
+        with my creative side. Solving technical challenges and seeing the
+        results come to life in an interactive way is very rewarding. It&apos;s
+        a mix of problem-solving and design that keeps me engaged.
+      </p> */}
     </div>
   );
 }
