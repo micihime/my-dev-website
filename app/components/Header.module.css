@@ -7,7 +7,7 @@
 
 .logo {
   color: var(--color-accent);
-  font-size: calc(var(--font-size-h2) + 4px);
+  font-size: 40px;
   font-family: "Raleway", cursive;
 }
 
@@ -54,7 +54,7 @@
   }
 
   .logo {
-    margin-bottom: calc(var(--spacing-standard) - 5px);
+    margin-bottom: 15px;
   }
 
   .navigation ul {
@@ -70,7 +70,7 @@
   }
 
   .navigation ul li {
-    padding: calc(var(--spacing-standard) - 8px) 0;
+    padding: 12px 0;
   }
 
   .navigation ul li a {

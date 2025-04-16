@@ -28,9 +28,9 @@ export default function Header() {
             <li>
               <a href="/skills">Skills</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/portfolio">Portfolio</a>
-            </li>
+            </li> */}
             {/* <li>
               <a href="/contact">Contact</a>
             </li> */}
