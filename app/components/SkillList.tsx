@@ -13,8 +13,7 @@ export default function SkillList() {
           skills={[
             { name: ".NET / C#", level: 90 },
             { name: "SQL", level: 85 },
-            { name: "TypeScript", level: 80 },
-            { name: "JavaScript", level: 75 },
+            { name: "Azure", level: 75 },
           ]}
         />
         <Skill
@@ -23,9 +22,8 @@ export default function SkillList() {
           icon={<IconCode size={24} />}
           skills={[
             { name: "React", level: 85 },
-            { name: "Remix", level: 75 },
             { name: "TypeScript", level: 80 },
-            { name: "HTML/CSS", level: 90 },
+            { name: "HTML/CSS", level: 70 },
           ]}
         />
         <Skill
@@ -35,8 +33,7 @@ export default function SkillList() {
           skills={[
             { name: "Problem-solving", level: 95 },
             { name: "Adaptability", level: 90 },
-            { name: "Communication", level: 85 },
-            { name: "Teamwork", level: 90 },
+            { name: "Teamwork", level: 85 },
           ]}
         />
       </ul>
