@@ -17,12 +17,12 @@
   --font-size-h1: 48px;
 
   /* Spacing */
-  --spacing-standard: 20px;
+  --spacing-standard: 30px;
   --spacing-large: 24px;
 
   /* Other */
   --border-radius-circle: 50%;
-  --footer-height: 60px;
+  --footer-height: 70px;
   --max-content-width: 1200px;
 }
 

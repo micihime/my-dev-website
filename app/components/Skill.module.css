@@ -81,3 +81,12 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .skill-item {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+}

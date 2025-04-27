@@ -3,6 +3,8 @@
   background-color: var(--color-white);
   position: sticky;
   top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -81,11 +83,14 @@
   .navigationOpen {
     margin-top: var(--spacing-standard);
     width: 100%;
+    z-index: 150;
   }
 
   .navigationOpen ul {
     display: flex;
     flex-direction: column;
+    z-index: 150;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .navigationOpen li {
