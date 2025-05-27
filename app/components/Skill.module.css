@@ -34,18 +34,25 @@
 }
 
 .skill-details {
-  color: #555;
+  color: var(--color-grey);
   line-height: 1.6;
 }
 
 .skill-icon {
   font-size: 2.5rem;
-  color: var(--color-main);
-  margin-bottom: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-main);
+  opacity: 0.4;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-progress {
-  background-color: #e0e0e0;
+  background-color: var(--color-white);
   height: 10px;
   border-radius: 5px;
   margin-top: 5px;
