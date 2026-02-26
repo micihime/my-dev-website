@@ -6,8 +6,7 @@ import {
 } from "@tabler/icons-react";
 
 export default function Index() {
-  const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
+  const handleEmailClick = () => {
     const username = "mitchie.code";
     const domain = "gmail.com";
     window.location.href = `mailto:${username}@${domain}`;
@@ -19,14 +18,9 @@ export default function Index() {
         <span>Mitchie</span>
       </div>
       <div className={styles.socialIcons}>
-        <a
-          href="#"
-          onClick={handleEmailClick}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <button type="button" onClick={handleEmailClick}>
           <IconMail size={18} />
-        </a>
+        </button>
         <a
           href="https://www.linkedin.com/in/miroslava-hre%C5%A1ko-bbb5939a/"
           target="_blank"
