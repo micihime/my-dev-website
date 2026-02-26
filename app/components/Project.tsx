@@ -9,7 +9,7 @@ interface ProjectProps {
     text: string;
     additionalText?: string;
   };
-  sourceCodeUrl: string;
+  sourceCodeUrl?: string;
   imageUrl?: string;
   technologies?: string[];
 }
@@ -48,9 +48,11 @@ export default function Project({
               {link.additionalText && ` ${link.additionalText}`}
             </a>
           )}
-          <a href={sourceCodeUrl} className={styles.repoLink}>
-            View Source Code
-          </a>
+          {sourceCodeUrl && (
+            <a href={sourceCodeUrl} className={styles.repoLink}>
+              View Source Code
+            </a>
+          )}
         </div>
       </div>
     </div>
