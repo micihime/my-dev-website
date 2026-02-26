@@ -3,7 +3,7 @@ import { IconMail } from "@tabler/icons-react";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Contact | Mitchie - Full Stack Developer" },
+    { title: "Contact" },
     {
       name: "description",
       content:
