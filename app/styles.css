@@ -129,13 +129,6 @@ h2 {
   margin-left: var(--spacing-standard);
 }
 
-.anchor {
-  display: block;
-  position: relative;
-  top: -95px;
-  visibility: hidden;
-}
-
 .about-me {
   padding: var(--spacing-large) var(--spacing-standard);
   background-image: var(--main-gradient);
