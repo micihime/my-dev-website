@@ -43,13 +43,13 @@ export default function Project({
         )}
         <div className={styles.projectLinks}>
           {link && (
-            <a href={link.url} className={styles.demoLink}>
+            <a href={link.url} className={styles.demoLink} target="_blank" rel="noopener noreferrer">
               {link.text}
               {link.additionalText && ` ${link.additionalText}`}
             </a>
           )}
           {sourceCodeUrl && (
-            <a href={sourceCodeUrl} className={styles.repoLink}>
+            <a href={sourceCodeUrl} className={styles.repoLink} target="_blank" rel="noopener noreferrer">
               View Source Code
             </a>
           )}
