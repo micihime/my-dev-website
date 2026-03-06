@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@400;600;700&display=swap");
+
+:root {
+  /* Colors */
+  --color-primary: #4C6B4F; /* Use for nav bar, logo accents, and buttons. */
+  --color-primary-dark: #2F4A32; /* Use for nav bar, logo accents, and buttons. */
+  --color-accent: #C2A878; /* Use for buttons or hover effects. */
+  --color-accent-dark: #B0986D; /* Logo color */
+  --color-background: #F4F1EA;
+  --color-text: #2B2B2B;
+
+  /* Font sizes */
+  --font-size-base: 18px;
+  --font-size-h3: 24px;
+  --font-size-h2: 36px;
+  --font-size-h1: 48px;
+
+  /* Spacing */
+  --spacing-standard: 2rem;
+  --spacing-large: 24px;
+
+  /* Other */
+  --border-radius-circle: 50%;
+  --header-height: 90px; 
+  --footer-height: 70px;
+  --max-content-width: 1000px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  font-size: var(--font-size-base);
+  font-family: 'Nunito Sans', 'Raleway', sans-serif;
+  background-color: var(--color-background);
+  padding-bottom: var(--footer-height);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-primary-dark);
+  text-align: center;
+  font-family: 'Merriweather', 'Cormorant Garamond', serif;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+a {
+  color: var(--color-primary-dark);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
