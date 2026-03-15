@@ -100,16 +100,12 @@ export default function Index() {
       </Project>
 
       <Project
-        title="Regional Portal"
-        link={{
-          url: "https://cherrypeak.eu/en/projects/ksk-data-portal",
-          text: "Link,",
-          additionalText: "if you're interested.",
-        }}
+        title="Admin Portal for collector card platform"
         technologies={["React", "Typescript", "Next.js", "AWS Amplify Auth", "Chakra UI"]}
       >
         <p>
-          Contributed to the technical evolution of an AR-based collector card platform. My primary responsibility was migrating the application from React Vite 
+          Contributed to the technical evolution of an AR-based collector card platform. My 
+          primary responsibility was migrating the application&apos;s admin portal from React Vite 
           to Next.js, improving performance and enabling server-side rendering capabilities.
         </p>
       </Project>
