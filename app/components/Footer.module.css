@@ -21,6 +21,7 @@
 
 .socialIcons {
   display: flex;
+  align-items: center;
   gap: 8px;
   margin-top: var(--spacing-standard);
   margin-right: var(--spacing-standard);
@@ -28,4 +29,13 @@
 
 .socialIcons a {
   color: var(--color-white);
+}
+
+.socialIcons button {
+  color: var(--color-white);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
 }
