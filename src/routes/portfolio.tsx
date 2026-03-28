@@ -1,23 +1,6 @@
-import type { MetaFunction } from "@netlify/remix-runtime";
-import Project from "~/components/Project";
+import Project from "../components/Project";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Projects & Portfolio" },
-    {
-      name: "description",
-      content:
-        "Explore my web development projects, view live demos and technical implementations.",
-    },
-    { property: "og:title", content: "Developer Portfolio | Mitchie" },
-    {
-      property: "og:description",
-      content:
-        "Collection of web development projects and applications",
-    },
-  ];
-};
-
+// TODO: add route - not real route yet, taken from old remix app
 export default function Index() {
   return (
     <div className="content">

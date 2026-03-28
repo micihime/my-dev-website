@@ -1,23 +1,6 @@
-import type { MetaFunction } from "@netlify/remix-runtime";
 import { IconMail } from "@tabler/icons-react";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Contact" },
-    {
-      name: "description",
-      content:
-        "Get in touch for development opportunities, collaborations, or questions about my web development services.",
-    },
-    { property: "og:title", content: "Contact Mitchie | Web Developer" },
-    {
-      property: "og:description",
-      content:
-        "Connect with me for development opportunities and collaborations",
-    },
-  ];
-};
-
+// TODO: add route - not real route yet, taken from old remix app
 export default function Index() {
   return (
     <div className="content">

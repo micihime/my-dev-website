@@ -1,22 +1,6 @@
-import type { MetaFunction } from "@netlify/remix-runtime";
-import SkillList from "~/components/SkillList";
+import SkillList from "../components/SkillList";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Technical Skills" },
-    {
-      name: "description",
-      content:
-        "Expertise in .NET, C#, React, and modern web development technologies. Full stack development skills and professional experience.",
-    },
-    { property: "og:title", content: "Developer Skills & Expertise | Mitchie" },
-    {
-      property: "og:description",
-      content: "Technical skills and expertise in full stack web development",
-    },
-  ];
-};
-
+// TODO: add route - not real route yet, taken from old remix app
 export default function Index() {
   return (
     <div className="content">

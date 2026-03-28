@@ -1,18 +1,17 @@
-import "app/styles.css";
-import { IconMenu2, IconX } from "@tabler/icons-react";
-import { useState } from "react";
+// import { IconMenu2, IconX } from "@tabler/icons-react";
+// import { useState } from "react";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  // const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-  const toggleHamburger = () => {
-    setHamburgerOpen(!hamburgerOpen);
-  };
+  // const toggleHamburger = () => {
+  //   setHamburgerOpen(!hamburgerOpen);
+  // };
 
-  const navigationClass = `${styles.navigation} ${
-    hamburgerOpen ? styles.navigationOpen : ""
-  }`;
+  // const navigationClass = `${styles.navigation} ${
+  //   hamburgerOpen ? styles.navigationOpen : ""
+  // }`;
 
   return (
     <div className={styles.header}>
@@ -20,7 +19,7 @@ export default function Header() {
         <div className={styles.logo}>
           <a href="/">Mitchie</a>
         </div>
-        <div className={navigationClass}>
+        {/* <div className={navigationClass}>
           <ul>
             <li>
               <a href="/">Home</a>
@@ -34,9 +33,9 @@ export default function Header() {
             <li>
               <a href="/personal">Personal Projects</a>
             </li>
-            {/* <li>
+            <li>
               <a href="/contact">Contact</a>
-            </li> */}
+            </li>
           </ul>
           <button
             className={styles.hamburger}
@@ -55,7 +54,7 @@ export default function Header() {
               <IconMenu2 size={34} stroke={1.5} />
             )}
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
