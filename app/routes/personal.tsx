@@ -1,20 +1,35 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import Project from "~/components/Project";
 
+const SITE_URL = "https://mitchie.dev";
+
 export const meta: MetaFunction = () => {
+  const title = "Personal Projects | Miroslava Hreško";
+  const description =
+    "Explore my personal web development projects, view live demos and technical implementations.";
+
   return [
-    { title: "Personal Projects" },
+    { title },
+    { name: "robots", content: "noindex, nofollow" },
+    { name: "description", content: description },
     {
-      name: "description",
+      name: "keywords",
       content:
-        "Explore my personal web development projects, view live demos and technical implementations.",
+        "personal projects, side projects, React, .NET MAUI, web development, Miroslava Hreško",
     },
-    { property: "og:title", content: "Developer Portfolio | Mitchie" },
-    {
-      property: "og:description",
-      content:
-        "Collection of personal web development projects and applications",
-    },
+    { name: "author", content: "Miroslava Hreško" },
+    { tagName: "link", rel: "canonical", href: `${SITE_URL}/personal` },
+    // Open Graph
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: `${SITE_URL}/personal` },
+    { property: "og:image", content: `${SITE_URL}/img/profile.jpg` },
+    // Twitter Card
+    { name: "twitter:card", content: "summary" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: `${SITE_URL}/img/profile.jpg` },
   ];
 };
 
