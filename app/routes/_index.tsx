@@ -1,38 +1,44 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 
+const SITE_URL = "https://mitchie.dev"; // TODO: replace with your actual domain
+
 export const meta: MetaFunction = () => {
+  const title = "Miroslava Hreško | Frontend Developer";
+  const description =
+    "Frontend Developer passionate about bringing designs to life with clean, responsive React code. Based in Prague, working remotely.";
+
   return [
-    { title: "Mitchie | Web Developer" },
-    {
-      name: "description",
-      content:
-        "Creating efficient, scalable web applications with a focus on user experience and modern development practices.",
-    },
+    { title },
+    { name: "description", content: description },
     {
       name: "keywords",
       content:
-        "web developer, React developer, C#, frontend development",
+        "frontend developer, React developer, web developer, Prague, remote developer",
     },
-    { name: "author", content: "Mitchie" },
-    { property: "og:title", content: "Mitchie" },
-    {
-      property: "og:description",
-      content:
-        "Creating efficient, scalable web applications with a focus on user experience.",
-    },
+    { name: "author", content: "Miroslava Hreško" },
+    { tagName: "link", rel: "canonical", href: SITE_URL },
+    // Open Graph
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
     { property: "og:type", content: "website" },
-    { property: "og:image", content: "/img/profile.jpg" },
+    { property: "og:url", content: SITE_URL },
+    { property: "og:image", content: `${SITE_URL}/img/profile.jpg` },
+    // Twitter Card
+    { name: "twitter:card", content: "summary" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: `${SITE_URL}/img/profile.jpg` },
   ];
 };
 
 export default function Index() {
   return (
-    <>
-      <div className="about-me">
-        <img src="/img/profile.jpg" alt="my profile" width="150" height="150" />
+    <main>
+      <section className="about-me">
+        <img src="/img/profile.jpg" alt="Miroslava Hreško - Frontend Developer" width="150" height="150" />
         <h1>Miroslava Hreško</h1>
-      </div>
-      <div className="content">
+      </section>
+      <section className="content">
         <p>
           Frontend Developer passionate about bringing designs to life with clean, responsive React code. 
           I thrive in collaborative environments with clear specifications and design systems. Looking for 
@@ -40,7 +46,7 @@ export default function Index() {
         </p>
         <p>Based in Prague, working remotely.</p>
         <p>Let&apos;s connect and build something great together!</p>
-      </div>
-    </>
+      </section>
+    </main>
   );
 }
