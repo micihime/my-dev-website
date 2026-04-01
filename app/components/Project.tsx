@@ -32,26 +32,28 @@ export default function Project({
       <div className={styles.projectContent}>
         <h2>{title}</h2>
         <div className={styles.projectDescription}>{children}</div>
-        {technologies && (
-          <div className={styles.technologies}>
-            {technologies.map((tech, index) => (
-              <span key={index} className={styles.techTag}>
-                {tech}
-              </span>
-            ))}
-          </div>
-        )}
-        <div className={styles.projectLinks}>
+        <div className={styles.projectFooter}>
           {link && (
-            <a href={link.url} className={styles.demoLink} target="_blank" rel="noopener noreferrer">
-              {link.text}
-              {link.additionalText && ` ${link.additionalText}`}
-            </a>
+            <div className={styles.projectLinks}>
+              <a href={link.url} className={styles.demoLink} target="_blank" rel="noopener noreferrer">
+                {link.text}
+                {link.additionalText && ` ${link.additionalText}`}
+              </a>
+              {sourceCodeUrl && (
+                <a href={sourceCodeUrl} className={styles.repoLink} target="_blank" rel="noopener noreferrer">
+                  View Source Code
+                </a>
+              )}
+            </div>
           )}
-          {sourceCodeUrl && (
-            <a href={sourceCodeUrl} className={styles.repoLink} target="_blank" rel="noopener noreferrer">
-              View Source Code
-            </a>
+          {technologies && (
+            <div className={styles.technologies}>
+              {technologies.map((tech, index) => (
+                <span key={index} className={styles.techTag}>
+                  {tech}
+                </span>
+              ))}
+            </div>
           )}
         </div>
       </div>
