@@ -1,26 +1,40 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import Project from "~/components/Project";
 
+const SITE_URL = "https://mitchie.dev";
+
 export const meta: MetaFunction = () => {
+  const title = "Projects & Portfolio | Miroslava Hreško";
+  const description =
+    "Explore my web development projects, view live demos and technical implementations.";
+
   return [
-    { title: "Projects & Portfolio" },
+    { title },
+    { name: "description", content: description },
     {
-      name: "description",
+      name: "keywords",
       content:
-        "Explore my web development projects, view live demos and technical implementations.",
+        "portfolio, web development projects, React projects, frontend developer, Miroslava Hreško",
     },
-    { property: "og:title", content: "Developer Portfolio | Mitchie" },
-    {
-      property: "og:description",
-      content:
-        "Collection of web development projects and applications",
-    },
+    { name: "author", content: "Miroslava Hreško" },
+    { tagName: "link", rel: "canonical", href: `${SITE_URL}/portfolio` },
+    // Open Graph
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: `${SITE_URL}/portfolio` },
+    { property: "og:image", content: `${SITE_URL}/img/profile.jpg` },
+    // Twitter Card
+    { name: "twitter:card", content: "summary" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: `${SITE_URL}/img/profile.jpg` },
   ];
 };
 
 export default function Index() {
   return (
-    <div className="content">
+    <main className="content">
       <h1>A selection of recent work</h1>
       <p>
         I contribute to web application development using React for front-end and .NET Core for backend services. 
@@ -28,12 +42,12 @@ export default function Index() {
         and clean code.
       </p>
 
-      <div className="projects-grid">      
+      <section className="projects-grid">      
       <Project
         title="Marathonpedia"
         link={{
           url: "https://www.kosicemarathon.com/marathonpoint/",
-          text: "Link"
+          text: "View Marathonpedia"
         }}
         technologies={["React", "Typescript", "Chakra UI", "Strapi", "Supabase" ]}
       >
@@ -52,7 +66,7 @@ export default function Index() {
         title="Regional Portal"
         link={{
           url: "https://cherrypeak.eu/en/projects/ksk-data-portal",
-          text: "Link",
+          text: "View Regional Portal",
         }}
         technologies={["React", "Typescript", "Next.js", "Tailwind CSS", "Strapi", "PostgreSQL", ".NET Core"]}
       >
@@ -70,7 +84,7 @@ export default function Index() {
         title="Meishi"
         link={{
           url: "https://meishi.cards/",
-          text: "Link"
+          text: "View Meishi"
         }}
         technologies={["React Vite", "Typescript", "AWS Amplify Auth", "Chakra UI"]}
       >
@@ -100,7 +114,7 @@ export default function Index() {
           improving performance and unlocking server-side rendering in the process.
         </p>
       </Project>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
