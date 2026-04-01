@@ -28,26 +28,7 @@ export default function Index() {
         and clean code.
       </p>
 
-      <div className="projects-grid">
-      <Project
-        title="Meishi"
-        link={{
-          url: "https://meishi.cards/",
-          text: "Link"
-        }}
-        technologies={["React Vite", "Typescript", "AWS Amplify Auth", "Chakra UI"]}
-      >
-        <p>
-          Meishi is a platform that transforms traditional business cards into augmented reality experiences. 
-          Businesses can create branded card by choosing company colours and logo to generate their own personalised cards. 
-          Scanning a Meishi card with the mobile app brings it to life with interactive AR content.
-        </p>
-        <p>
-          I contributed to the frontend as part of a collaborative team, working on bug fixes and feature enhancements, 
-          helping ensure smooth user interactions and a consistent experience across devices.
-        </p>
-      </Project>
-      
+      <div className="projects-grid">      
       <Project
         title="Marathonpedia"
         link={{
@@ -57,16 +38,13 @@ export default function Index() {
         technologies={["React", "Typescript", "Chakra UI", "Strapi", "Supabase" ]}
       >
         <p>
-          Marathon Point Info Kiosk&apos;s Marathonpedia is an interactive touchscreen application built for the Košice Peace Marathon Museum, 
-          dedicated to Europe&apos;s oldest marathon, established in 1924. The kiosk lets visitors explore nearly a century of marathon history 
-          through an interactive timeline, winner galleries with detailed runner statistics, photo and video content, and fun facts and trivia. 
-          A QR code integration allows quick event registration directly from the screen. 
+          Marathon Point is a touchscreen kiosk built for the Košice Peace Marathon Museum. Visitors can explore nearly a century of history through an interactive timeline,
+          winner galleries, photos, videos, and fun trivia. 
         </p>
         <p>
-          I was responsible for the frontend implementation, building the interface from Figma designs with a focus on smooth, touch-friendly 
-          interactions suitable for all ages. My responsibilities included building the front-end interface in React, integrating with Supabase 
-          and Strapi backends, and implementing data display functionality to enable visitors to explore marathon history, search past runners, 
-          and view finish times.
+          I built the frontend from Figma designs, focusing on touch-friendly interactions that work well for all ages.
+          This included integrating with Supabase and Strapi backends to let visitors browse marathon history, search
+          past runners, and look up finish times.
         </p>
       </Project>
 
@@ -79,14 +57,27 @@ export default function Index() {
         technologies={["React", "Typescript", "Next.js", "Tailwind CSS", "Strapi", "PostgreSQL", ".NET Core"]}
       >
         <p>
-          Regional Portal is a comprehensive online platform that makes regional data from the Košice Self-Governing Region accessible and actionable 
-          for citizens, investors, and policymakers. The portal consolidates data from multiple sources into a single intuitive interface, featuring an 
-          interactive AI-powered map tool that allows users to search, filter, and visualise geographic datasets - covering everything from investment 
-          zones and housing to education facilities and public transport. 
+          A platform that makes regional data from the Košice Self-Governing Region actually usable — for citizens,
+          investors, and policymakers alike. It brings together data from multiple sources into one place, with an
+          AI-powered map tool for exploring everything from investment zones to public transport.
         </p>
         <p>
-          I worked as part of a collaborative team, my responsibilities spanned both front-end and backend development, contributing to a full-stack 
-          solution for municipal information delivery.
+          I worked across both frontend and backend as part of a full-stack team.
+        </p>
+      </Project>
+
+      <Project
+        title="Meishi"
+        link={{
+          url: "https://meishi.cards/",
+          text: "Link"
+        }}
+        technologies={["React Vite", "Typescript", "AWS Amplify Auth", "Chakra UI"]}
+      >
+        <p>
+          Meishi turns traditional business cards into augmented reality experiences — scan a card and it comes to life
+          with interactive AR content. I joined the frontend team working on bug fixes and feature enhancements, making
+          sure interactions felt smooth and consistent across devices.
         </p>
       </Project>
 
@@ -95,8 +86,8 @@ export default function Index() {
         technologies={["Lit", "Typescript", "Recharts"]}
       >
         <p>
-          Worked as part of a team developing a design system for a banking institution. My responsibilities included implementing various UI components, 
-          debugging existing functionality, and developing chart components from scratch using Recharts.
+          Worked with a team building a design system for a banking institution. I implemented UI components, debugged
+          existing ones, and built chart components from scratch using Recharts.
         </p>
       </Project>
 
@@ -105,9 +96,8 @@ export default function Index() {
         technologies={["React", "Typescript", "Next.js", "AWS Amplify Auth", "Chakra UI"]}
       >
         <p>
-          Contributed to the technical evolution of an AR-based collector card platform. My 
-          primary responsibility was migrating the application&apos;s admin portal from React Vite 
-          to Next.js, improving performance and enabling server-side rendering capabilities.
+          Contributed to an AR-based collector card platform by migrating the admin portal from React Vite to Next.js —
+          improving performance and unlocking server-side rendering in the process.
         </p>
       </Project>
       </div>
