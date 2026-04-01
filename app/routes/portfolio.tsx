@@ -28,6 +28,7 @@ export default function Index() {
         and clean code.
       </p>
 
+      <div className="projects-grid">
       <Project
         title="Meishi"
         link={{
@@ -109,6 +110,7 @@ export default function Index() {
           to Next.js, improving performance and enabling server-side rendering capabilities.
         </p>
       </Project>
+      </div>
     </div>
   );
 }
