@@ -18,7 +18,7 @@ export default function Header() {
     <div className={styles.header}>
       <div className="content flexi">
         <div className={styles.logo}>
-          <a href="/">Mitchie</a>
+          <a href="/">mhresko</a>
         </div>
         <div className={navigationClass}>
           <ul>

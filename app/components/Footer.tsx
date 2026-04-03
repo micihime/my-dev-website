@@ -15,7 +15,7 @@ export default function Index() {
   return (
     <div className={styles.footer}>
       <div className={styles.logo}>
-        <span>Mitchie</span>
+        <span>Miči</span>
       </div>
       <div className={styles.socialIcons}>
         <button type="button" onClick={handleEmailClick}>
