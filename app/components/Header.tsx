@@ -15,7 +15,7 @@ export default function Header() {
   }`;
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className="content flexi">
         <div className={styles.logo}>
           <a href="/">mhresko</a>
@@ -51,6 +51,6 @@ export default function Header() {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

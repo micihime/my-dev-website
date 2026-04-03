@@ -13,7 +13,7 @@ export default function Index() {
   };
 
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={styles.logo}>
         <span>Miči</span>
       </div>
@@ -36,6 +36,6 @@ export default function Index() {
           <IconBrandGithub size={18} />
         </a>
       </div>
-    </div>
+    </footer>
   );
 }

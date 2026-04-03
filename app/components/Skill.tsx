@@ -11,7 +11,7 @@ export default function Skill({ title, details, icon, skills }: SkillProps) {
   return (
     <li className={styles["skill-item"]}>
       {icon && <div className={styles["skill-icon"]}>{icon}</div>}
-      <h3 className={styles["skill-title"]}>{title}:</h3>
+      <h2 className={styles["skill-title"]}>{title}:</h2>
       <p className={styles["skill-details"]}>{details}</p>
       {skills && (
         <div className={styles["skill-bars"]}>
