@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 
-const SITE_URL = "https://mitchie.dev"; // TODO: replace with your actual domain
+const SITE_URL = "https://mhresko.com";
 
 export const meta: MetaFunction = () => {
   const title = "Miroslava Hreško | Frontend Developer";

@@ -22,9 +22,6 @@ export default function Header() {
         </div>
         <div className={navigationClass}>
           <ul>
-            {/* <li>
-              <a href="/">Home</a>
-            </li> */}
             <li>
               <a href="/skills">Skills</a>
             </li>
@@ -33,9 +30,6 @@ export default function Header() {
             </li>
             {/* <li>
               <a href="/personal">Personal Projects</a>
-            </li> */}
-            {/* <li>
-              <a href="/contact">Contact</a>
             </li> */}
           </ul>
           <button
