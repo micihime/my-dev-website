@@ -40,9 +40,9 @@ export default function Index() {
       </section>
       <section className="content">
         <p>
-          Frontend Developer passionate about bringing designs to life with clean, responsive React code. 
-          I thrive in collaborative environments with clear specifications and design systems. Looking for 
-          a team-oriented role where quality code review and continuous learning are valued.
+          Frontend Developer who loves turning designs into clean, responsive React interfaces. 
+          I do my best work in teams where good code review is the norm and there&apos;s always 
+          something new to learn.
         </p>
         <p>Based in Prague, working remotely.</p>
         <p>Let&apos;s connect and build something great together!</p>

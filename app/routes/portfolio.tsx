@@ -37,9 +37,8 @@ export default function Index() {
     <main className="content">
       <h1>A selection of recent work</h1>
       <p>
-        I contribute to web application development using React for front-end and .NET Core for backend services. 
-        My projects span both collaborative and individual efforts, with a focus on usability, performance, 
-        and clean code.
+        A few recent projects I&apos;ve been part of. I mostly work on the frontend, 
+        but I&apos;m comfortable jumping into full-stack work when needed.
       </p>
 
       <section className="projects-grid">      
@@ -71,9 +70,9 @@ export default function Index() {
         technologies={["React", "Typescript", "Next.js", "Tailwind CSS", "Strapi", "PostgreSQL", ".NET Core"]}
       >
         <p>
-          A platform that makes regional data from the Košice Self-Governing Region actually usable — for citizens,
-          investors, and policymakers alike. It brings together data from multiple sources into one place, with an
-          AI-powered map tool for exploring everything from investment zones to public transport.
+          A platform bringing regional data from the Košice Self-Governing Region into one place — 
+          for citizens, investors, and policymakers. It connects multiple data sources and includes 
+          an AI-powered map for exploring everything from investment zones to public transport. 
         </p>
         <p>
           I worked across both frontend and backend as part of a full-stack team.
@@ -100,8 +99,9 @@ export default function Index() {
         technologies={["Lit", "Typescript", "Recharts"]}
       >
         <p>
-          Worked with a team building a design system for a banking institution. I implemented UI components, debugged
-          existing ones, and built chart components from scratch using Recharts.
+          Part of a team building a design system for a banking institution. I implemented UI 
+          components, debugged existing ones, and built chart components from scratch using 
+          Recharts.
         </p>
       </Project>
 
