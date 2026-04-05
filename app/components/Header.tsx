@@ -15,16 +15,13 @@ export default function Header() {
   }`;
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className="content flexi">
         <div className={styles.logo}>
-          <a href="/">Mitchie</a>
+          <a href="/">mhresko</a>
         </div>
         <div className={navigationClass}>
           <ul>
-            {/* <li>
-              <a href="/">Home</a>
-            </li> */}
             <li>
               <a href="/skills">Skills</a>
             </li>
@@ -33,9 +30,6 @@ export default function Header() {
             </li>
             {/* <li>
               <a href="/personal">Personal Projects</a>
-            </li> */}
-            {/* <li>
-              <a href="/contact">Contact</a>
             </li> */}
           </ul>
           <button
@@ -57,6 +51,6 @@ export default function Header() {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

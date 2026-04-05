@@ -35,7 +35,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="content">
+    <main className="content">
       <h1>Personal projects</h1>
 
       <Project
@@ -115,6 +115,6 @@ export default function Index() {
           way.
         </p>
       </Project>
-    </div>
+    </main>
   );
 }
