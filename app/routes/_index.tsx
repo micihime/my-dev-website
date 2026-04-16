@@ -40,12 +40,14 @@ export default function Index() {
       </section>
       <section className="content">
         <p>
-          Frontend Developer who loves turning designs into clean, responsive React interfaces. 
-          I do my best work in teams where good code review is the norm and there&apos;s always 
-          something new to learn.
+          I started my career building .NET backends and gradually found my passion in frontend, 
+          particularly React and TypeScript. Today I bring both perspectives to the table, which 
+          helps me build things that work well end-to-end.
         </p>
-        <p>Based in Prague, working remotely.</p>
-        <p>Let&apos;s connect and build something great together!</p>
+        <p>
+          I do my best work in teams where good code review is the norm and there&apos;s always 
+          something new to learn. I&apos;m based in Prague, working remotely. Let&apos;s connect
+          and build something great together!</p>
       </section>
     </main>
   );
