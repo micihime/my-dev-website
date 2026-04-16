@@ -38,21 +38,20 @@ export default function Index() {
       <h1>Skills</h1>
       <p>
         I started my career with .NET and C#, and somewhere along the way I fell in love 
-        with the frontend side of things — the part where logic meets what people actually 
-        see and use. These days I focus mostly on React, but I still find it useful to 
-        understand what&apos;s happening on the backend.
-      </p>
-      <p>
-        What I love most about web development is that it never lets me get bored — 
-        there&apos;s always a tricky problem to untangle, and then the satisfaction of seeing 
-        the result actually work.
+        with the frontend side of things, the part where logic meets what people actually 
+        see and use.
       </p>
       <SkillList />
       <p>
+        What I love most about web development is that it never lets me get bored.
+        There&apos;s always a tricky problem to untangle, and then the satisfaction of seeing 
+        the result actually work.
+      </p>
+      {/* <p>
         Outside of code, I&apos;ve been part of Toastmasters for a while, which has made me 
         a lot more comfortable speaking up, giving feedback, and being honest when something 
         could be better.
-      </p>
+      </p> */}
     </main>
   );
 }
