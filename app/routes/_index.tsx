@@ -3,7 +3,7 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 const SITE_URL = "https://mhresko.com";
 
 export const meta: MetaFunction = () => {
-  const title = "Miroslava Hreško | Frontend Developer";
+  const title = "Miroslava Hreško | Developer";
   const description =
     "Frontend Developer passionate about bringing designs to life with clean, responsive React code. Based in Prague, working remotely.";
 

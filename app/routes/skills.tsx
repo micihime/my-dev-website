@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
 import SkillList from "~/components/SkillList";
 
-const SITE_URL = "https://mitchie.dev";
+const SITE_URL = "https://mhresko.com";
 
 export const meta: MetaFunction = () => {
   const title = "Technical Skills | Miroslava Hreško";
